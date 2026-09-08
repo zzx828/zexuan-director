@@ -1,0 +1,3172 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赵泽玄 ZhaoZexuan — 品牌策划 · 内容编导 | 2026届</title>
+    <meta name="description" content="赵泽玄，2026届新闻学本科，求职品牌策划/内容编导（杭州·上海）。江西广播电视台政务活动全案策划执笔，MCN期间服务夏小夏等百万粉IP、操盘账号0到1（25万粉、单条最高181万赞），懂策略、会写脚本、能落地执行。">
+    <meta name="keywords" content="赵泽玄,品牌策划,内容编导,短视频编导,新媒体策划,整合营销,账号孵化,活动策划,杭州,上海,2026届,新闻学">
+    <meta name="author" content="赵泽玄">
+    <meta name="theme-color" content="#0a0a0a">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="赵泽玄 ZhaoZexuan — 品牌策划 · 内容编导 | 2026届">
+    <meta property="og:description" content="把品牌诉求翻译成观众愿意看完的内容：政务活动全案执笔、爆款内容方法论、账号0到1孵化。求职杭州/上海品牌策划与内容编导岗位。">
+    <meta property="og:image" content="https://zzx828.github.io/zexuan/images-webp/hero-bg.webp">
+    <meta property="og:url" content="https://zzx828.github.io/zexuan/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="images-webp/hero-bg.webp" as="image" type="image/webp" fetchpriority="high">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #111111;
+            --surface2: #1a1a1a;
+            --text: #e8e4df;
+            --text-muted: #888888;
+            --accent: #c9a96e;
+            --accent2: #e8c98a;
+            --warm: #b5651d;
+            --border: rgba(201,169,110,0.18);
+            --radius: 4px;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; }
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+            -webkit-font-smoothing:antialiased;
+            overflow-x:hidden;
+        }
+        em, .nav-logo, .hero-name, .section-title, .stat-num, .edu-school, .exp-title, .work-title, .skill-name, .award-name, .cert-item, .contact-title, .douyin-title {
+            font-family:'Noto Serif SC', 'Songti SC', 'STSongti', 'SimSun', 'Noto Serif CJK SC', serif;
+        }
+        em { font-style:normal; }
+
+        /* ====== CURSOR ====== */
+        .cursor-dot {
+            width:6px; height:6px;
+            background:var(--accent);
+            border-radius:50%;
+            position:fixed;
+            pointer-events:none;
+            z-index:9999;
+            transition:transform .15s;
+            mix-blend-mode:difference;
+        }
+        .cursor-ring {
+            width:32px; height:32px;
+            border:1px solid var(--accent);
+            border-radius:50%;
+            position:fixed;
+            pointer-events:none;
+            z-index:9998;
+            transition:transform .4s, opacity .4s;
+            opacity:.5;
+        }
+
+        /* ====== CUSTOM SCROLLBAR ====== */
+        ::-webkit-scrollbar { width:4px; }
+        ::-webkit-scrollbar-track { background:var(--bg); }
+        ::-webkit-scrollbar-thumb { background:var(--accent); border-radius:2px; }
+
+        /* ====== NAV ====== */
+        nav {
+            position:fixed;
+            top:0; left:0; right:0;
+            z-index:100;
+            padding:0 48px;
+            height:72px;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            transition:background .4s, backdrop-filter .4s;
+        }
+        nav.scrolled {
+            background:rgba(10,10,10,.85);
+            backdrop-filter:blur(20px);
+            border-bottom:1px solid var(--border);
+        }
+        .nav-logo {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.1rem;
+            letter-spacing:.08em;
+            color:var(--accent);
+            font-weight:600;
+            text-decoration:none;
+        }
+        .nav-logo span { color:var(--text-muted); font-weight:300; margin-left:8px; font-size:.85rem; }
+        nav ul {
+            display:flex;
+            list-style:none;
+            gap:36px;
+        }
+        nav a {
+            text-decoration:none;
+            color:var(--text-muted);
+            font-size:.8rem;
+            letter-spacing:.12em;
+            text-transform:uppercase;
+            transition:color .3s;
+            font-weight:400;
+        }
+        nav a:hover, nav a.active { color:var(--accent); }
+        .nav-toggle {
+            display:none;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            gap:5px;
+            width:42px;
+            height:42px;
+            background:none;
+            border:0;
+            cursor:pointer;
+            z-index:102;
+        }
+        .nav-toggle span {
+            display:block;
+            width:22px;
+            height:2px;
+            background:var(--text-muted);
+            border-radius:2px;
+            transition:transform .3s, opacity .3s;
+        }
+
+        /* ====== HERO ====== */
+        .hero {
+            position:relative;
+            height:100vh;
+            display:flex;
+            align-items:flex-end;
+            padding:0 80px 80px;
+            overflow:hidden;
+        }
+        .hero-bg {
+            position:absolute;
+            inset:0;
+            background:
+                linear-gradient(to bottom, rgba(10,10,10,.3) 0%, rgba(10,10,10,.1) 40%, rgba(10,10,10,.85) 80%, var(--bg) 100%),
+                url('images/hero-bg.jpg') center/cover no-repeat;
+            filter:contrast(1.05) brightness(.9);
+        }
+        .hero-grain {
+            position:absolute;
+            inset:0;
+            background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='.04'/%3E%3C/svg%3E");
+            pointer-events:none;
+            opacity:.6;
+        }
+        .hero-content {
+            position:relative;
+            z-index:2;
+            max-width:800px;
+        }
+        .hero-tag {
+            display:inline-block;
+            font-size:.7rem;
+            letter-spacing:.2em;
+            text-transform:uppercase;
+            color:var(--accent);
+            border:1px solid var(--border);
+            padding:6px 16px;
+            border-radius:40px;
+            margin-bottom:24px;
+            opacity:0;
+            animation: fadeUp .8s .3s forwards;
+        }
+        .hero-name {
+            font-family:'Noto Serif SC',serif;
+            font-size:clamp(3.5rem,8vw,6rem);
+            font-weight:700;
+            line-height:1.05;
+            letter-spacing:-.01em;
+            margin-bottom:16px;
+            opacity:0;
+            animation: fadeUp .8s .5s forwards;
+        }
+        .hero-sub {
+            font-size:clamp(1rem,2vw,1.25rem);
+            color:var(--text-muted);
+            font-weight:300;
+            line-height:1.6;
+            margin-bottom:40px;
+            max-width:560px;
+            opacity:0;
+            animation: fadeUp .8s .7s forwards;
+        }
+        .hero-tags {
+            display:flex;
+            flex-wrap:wrap;
+            gap:10px;
+            opacity:0;
+            animation: fadeUp .8s .9s forwards;
+        }
+        .hero-tags span {
+            font-size:.72rem;
+            letter-spacing:.1em;
+            padding:5px 14px;
+            border:1px solid var(--border);
+            color:var(--text-muted);
+            border-radius:40px;
+        }
+        .hero-scroll {
+            position:absolute;
+            bottom:40px;
+            right:80px;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            gap:8px;
+            opacity:0;
+            animation: fadeUp .8s 1.2s forwards;
+        }
+        .hero-scroll span {
+            font-size:.65rem;
+            letter-spacing:.15em;
+            text-transform:uppercase;
+            color:var(--text-muted);
+            writing-mode:vertical-rl;
+        }
+        .scroll-line {
+            width:1px;
+            height:60px;
+            background:linear-gradient(to bottom, var(--accent), transparent);
+            animation: scrollPulse 2s infinite;
+        }
+        @keyframes scrollPulse {
+            0%,100% { opacity:.3; transform:scaleY(1); }
+            50% { opacity:1; transform:scaleY(1.2); }
+        }
+
+        /* ====== SECTIONS ====== */
+        section { padding:120px 80px; scroll-margin-top:90px; }
+        #about { padding-bottom:64px; }
+        #capabilities { padding-top:64px; }
+        .section-label {
+            font-size:.7rem;
+            letter-spacing:.2em;
+            text-transform:uppercase;
+            color:var(--accent);
+            margin-bottom:12px;
+        }
+        .section-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:clamp(2rem,4vw,3rem);
+            font-weight:600;
+            line-height:1.2;
+            margin-bottom:16px;
+        }
+        .section-sub {
+            color:var(--text-muted);
+            font-size:.95rem;
+            max-width:480px;
+            line-height:1.7;
+        }
+        .divider {
+            width:48px;
+            height:1px;
+            background:var(--accent);
+            margin:24px 0;
+        }
+
+        /* ====== ABOUT ====== */
+        #about { background:var(--bg); }
+        /* ====== ABOUT ====== */
+        .about-grid {
+            display:grid;
+            grid-template-columns:420px 1fr;
+            gap:80px;
+            align-items:start;
+            margin-top:60px;
+        }
+        /* --- LEFT COLUMN --- */
+        .about-left { display:flex; flex-direction:column; gap:0; }
+        .about-photo-grid {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:12px;
+            border-radius:12px;
+            overflow:hidden;
+            border:1px solid var(--border);
+        }
+        .about-photo-grid .about-portrait {
+            width:100%;
+            aspect-ratio:3/4;
+            object-fit:cover;
+            display:block;
+            transition:transform .4s, filter .4s, box-shadow .4s;
+            filter:brightness(.85) saturate(.9);
+        }
+        .about-photo-grid .about-portrait:hover {
+            transform:scale(1.04);
+            filter:brightness(1) saturate(1);
+            box-shadow:0 0 0 2px rgba(201,169,110,.4), 0 0 20px rgba(201,169,110,.2);
+            z-index:2;
+        }
+        .stat-row {
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            gap:2px;
+            margin-top:24px;
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            overflow:hidden;
+        }
+        .stat-item {
+            background:var(--surface);
+            padding:22px 16px;
+            text-align:center;
+            transition:background .3s;
+        }
+        .stat-item:hover { background:var(--surface2); }
+        .stat-num {
+            font-family:'Noto Serif SC',serif;
+            font-size:2rem;
+            font-weight:700;
+            color:var(--accent);
+            line-height:1;
+        }
+        .stat-label {
+            font-size:.68rem;
+            letter-spacing:.1em;
+            color:var(--text-muted);
+            margin-top:6px;
+            text-transform:uppercase;
+        }
+        /* --- RIGHT COLUMN --- */
+        .about-right { display:flex; flex-direction:column; gap:40px; }
+        .about-quote {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.05rem;
+            line-height:2;
+            color:var(--text-muted);
+            font-weight:300;
+            border-left:2px solid var(--accent);
+            padding-left:28px;
+            margin:0;
+        }
+        .kw {
+            color:var(--accent2);
+            font-weight:600;
+            font-style:normal;
+        }
+        /* Education Card */
+        .edu-card {
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:12px;
+            padding:32px 36px;
+            display:grid;
+            grid-template-columns:1fr auto;
+            grid-template-rows:auto auto auto;
+            column-gap:24px;
+            row-gap:6px;
+            align-items:center;
+            transition:border-color .3s, box-shadow .3s;
+        }
+        .edu-card:hover {
+            border-color:rgba(201,169,110,.4);
+            box-shadow:0 0 0 1px rgba(201,169,110,.15), 0 0 20px rgba(201,169,110,.08);
+        }
+        .edu-card-label {
+            grid-column:1;
+            grid-row:1;
+            font-size:.65rem;
+            letter-spacing:.18em;
+            text-transform:uppercase;
+            color:var(--accent);
+            font-weight:500;
+        }
+        .edu-card-school {
+            grid-column:1;
+            grid-row:2;
+            font-family:'Noto Serif SC',serif;
+            font-size:1.5rem;
+            font-weight:700;
+            color:var(--text);
+            line-height:1.2;
+        }
+        .edu-card-degree {
+            grid-column:1;
+            grid-row:3;
+            font-size:.82rem;
+            color:var(--text-muted);
+            letter-spacing:.04em;
+            margin-top:2px;
+        }
+        .edu-card-period {
+            grid-column:2;
+            grid-row:1 / 4;
+            font-size:.72rem;
+            color:var(--text-muted);
+            letter-spacing:.06em;
+            text-align:right;
+            border-left:1px solid var(--border);
+            padding-left:20px;
+            align-self:center;
+            writing-mode:vertical-rl;
+            text-orientation:mixed;
+            transform:rotate(180deg);
+            letter-spacing:.1em;
+        }
+        .edu-courses {
+            grid-column:1 / 3;
+            grid-row:4;
+            display:flex;
+            flex-wrap:wrap;
+            gap:8px;
+            margin-top:16px;
+        }
+        .edu-courses span {
+            font-size:.72rem;
+            padding:5px 14px;
+            background:var(--surface2);
+            border:1px solid var(--border);
+            border-radius:40px;
+            color:var(--text-muted);
+            transition:all .3s;
+        }
+        .edu-courses span:hover { border-color:var(--accent); color:var(--accent); }
+        /* Skills */
+        .about-tags { display:flex; flex-wrap:wrap; gap:10px; }
+        .about-tags span {
+            font-size:.75rem;
+            padding:8px 18px;
+            border:1px solid var(--border);
+            border-radius:40px;
+            color:var(--text-muted);
+            transition:all .3s;
+        }
+        .about-tags span:hover { border-color:var(--accent); color:var(--accent); }
+
+        /* ====== WHAT I DO / CAPABILITIES ====== */
+        .cap-lead {
+            max-width:760px;
+            margin:0 auto 48px;
+            text-align:center;
+            font-size:1.05rem;
+            line-height:1.85;
+            color:var(--text-muted);
+        }
+        .cap-lead .kw { color:var(--text); font-weight:600; }
+        .cap-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+            gap:20px;
+        }
+        .cap-card {
+            position:relative;
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            padding:34px 28px 28px;
+            overflow:hidden;
+            transition:transform .4s cubic-bezier(.25,.46,.45,.94), border-color .4s, box-shadow .4s;
+        }
+        .cap-card::before {
+            content:'';
+            position:absolute; top:0; left:0;
+            width:100%; height:3px;
+            background:linear-gradient(to right, var(--accent), transparent);
+            opacity:.55;
+        }
+        .cap-card:hover {
+            transform:translateY(-6px);
+            border-color:rgba(201,169,110,.4);
+            box-shadow:0 16px 40px rgba(0,0,0,.4);
+        }
+        .cap-num {
+            font-family:'Noto Serif SC',serif;
+            font-size:2.4rem;
+            font-weight:700;
+            color:var(--accent);
+            opacity:.22;
+            line-height:1;
+            margin-bottom:14px;
+        }
+        .cap-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.25rem;
+            font-weight:600;
+            color:var(--text);
+            margin-bottom:12px;
+        }
+        .cap-desc {
+            font-size:.9rem;
+            line-height:1.7;
+            color:var(--text-muted);
+            margin-bottom:20px;
+        }
+        .cap-tags { display:flex; flex-wrap:wrap; gap:8px; }
+        .cap-tags span {
+            font-size:.72rem;
+            padding:4px 12px;
+            border:1px solid var(--border);
+            border-radius:20px;
+            color:var(--text-muted);
+        }
+
+        /* ====== EXPERIENCE / PROJECTS ====== */
+        #experience {
+            background:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images/experience-bg.jpg') center/cover fixed no-repeat;
+        }
+        #projects {
+            background:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images/work-projects-bg.jpg') center/cover fixed no-repeat;
+        }
+        /* ====== PROJECTS / WORK SUBSECTIONS ====== */
+        .subsection-title {
+            font-family:'Noto Serif SC', 'Songti SC', 'STSongti', 'SimSun', serif;
+            font-size:1.4rem;
+            font-weight:600;
+            color:var(--text);
+            margin:56px 0 28px;
+            padding-left:18px;
+            position:relative;
+        }
+        .subsection-title::before {
+            content:'';
+            position:absolute;
+            left:0; top:50%;
+            transform:translateY(-50%);
+            width:4px; height:1.1em;
+            background:linear-gradient(to bottom, var(--accent), var(--accent2));
+            border-radius:2px;
+        }
+        .subsection-title:first-of-type { margin-top:40px; }
+
+        /* Project Cards Grid */
+        .projects-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(360px,1fr));
+            gap:24px;
+        }
+        .proj-card {
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:12px;
+            overflow:hidden;
+            transition:transform .3s, box-shadow .3s, border-color .3s;
+        }
+        .proj-card:hover {
+            transform:translateY(-4px);
+            box-shadow:
+                0 0 0 1px rgba(201,169,110,.25),
+                0 0 20px rgba(201,169,110,.12),
+                0 0 40px rgba(201,169,110,.08),
+                0 20px 50px rgba(0,0,0,.5);
+            border-color:rgba(201,169,110,.55);
+        }
+        .proj-cover {
+            position:relative;
+            aspect-ratio:16/9;
+            overflow:hidden;
+        }
+        .proj-cover img {
+            width:100%; height:100%;
+            object-fit:cover;
+            transition:transform .5s;
+            filter:brightness(.8) saturate(.85);
+        }
+        .proj-card:hover .proj-cover img {
+            transform:scale(1.05);
+            filter:brightness(.9) saturate(1);
+        }
+        .proj-cover-overlay {
+            position:absolute;
+            top:12px; left:12px;
+            display:flex; gap:8px;
+        }
+        .proj-year {
+            font-size:.65rem;
+            letter-spacing:.12em;
+            color:#fff;
+            background:rgba(0,0,0,.6);
+            backdrop-filter:blur(8px);
+            padding:4px 12px;
+            border-radius:40px;
+            border:1px solid rgba(255,255,255,.15);
+        }
+        .proj-badge {
+            font-size:.65rem;
+            letter-spacing:.08em;
+            color:#fff;
+            background:rgba(201,169,110,.85);
+            backdrop-filter:blur(8px);
+            padding:4px 12px;
+            border-radius:40px;
+        }
+        .proj-body {
+            padding:24px 24px 28px;
+        }
+        .proj-company {
+            font-size:.72rem;
+            letter-spacing:.08em;
+            color:var(--text-muted);
+            margin-bottom:8px;
+        }
+        .proj-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.15rem;
+            font-weight:600;
+            margin-bottom:12px;
+            line-height:1.3;
+        }
+        .proj-desc {
+            font-size:.88rem;
+            color:var(--text-muted);
+            line-height:1.75;
+            margin-bottom:16px;
+            display:-webkit-box;
+            -webkit-line-clamp:3;
+            -webkit-box-orient:vertical;
+            overflow:hidden;
+        }
+        .proj-metrics {
+            display:flex;
+            gap:0;
+            margin-bottom:16px;
+            border:1px solid var(--border);
+            border-radius:8px;
+            overflow:hidden;
+        }
+        .metric {
+            flex:1;
+            text-align:center;
+            padding:12px 8px;
+            border-right:1px solid var(--border);
+            background:var(--surface2);
+        }
+        .metric:last-child { border-right:none; }
+        .metric-val {
+            display:block;
+            font-family:'Noto Serif SC',serif;
+            font-size:1.05rem;
+            font-weight:700;
+            color:var(--accent);
+            line-height:1;
+        }
+        .metric-label {
+            display:block;
+            font-size:.65rem;
+            letter-spacing:.08em;
+            color:var(--text-muted);
+            margin-top:4px;
+        }
+        .proj-tags {
+            display:flex;
+            flex-wrap:wrap;
+            gap:6px;
+        }
+        .proj-tags span {
+            font-size:.68rem;
+            padding:4px 12px;
+            border:1px solid var(--border);
+            border-radius:40px;
+            color:var(--text-muted);
+        }
+        .proj-strategy {
+            margin-top:14px;
+            padding-top:12px;
+            border-top:1px dashed var(--border);
+            display:flex;
+            flex-direction:column;
+            gap:7px;
+        }
+        .proj-strategy-row {
+            display:flex;
+            gap:10px;
+            font-size:.74rem;
+            line-height:1.65;
+            color:var(--text-muted);
+        }
+        .proj-strategy-key {
+            flex:none;
+            width:2.9em;
+            font-family:'Noto Serif SC',serif;
+            color:var(--accent);
+            letter-spacing:.1em;
+        }
+        .proj-strategy-val {
+            flex:1;
+            min-width:0;
+        }
+
+        /* Work Timeline */
+        .work-timeline {
+            position:relative;
+            padding-left:48px;
+        }
+        .work-timeline::before {
+            content:'';
+            position:absolute;
+            left:12px; top:0; bottom:0;
+            width:1px;
+            background:var(--border);
+        }
+        .wt-item {
+            position:relative;
+            margin-bottom:56px;
+        }
+        .wt-item:last-child { margin-bottom:0; }
+        .wt-dot {
+            position:absolute;
+            left:-42px; top:6px;
+            width:10px; height:10px;
+            border-radius:50%;
+            background:var(--accent);
+            border:2px solid var(--bg);
+            box-shadow:0 0 0 1px var(--accent);
+        }
+        .wt-period {
+            font-size:.68rem;
+            letter-spacing:.12em;
+            text-transform:uppercase;
+            color:var(--accent);
+            margin-bottom:6px;
+        }
+        .wt-company {
+            font-size:.8rem;
+            color:var(--text-muted);
+            margin-bottom:4px;
+        }
+        .wt-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.4rem;
+            font-weight:600;
+            margin-bottom:14px;
+            line-height:1.3;
+        }
+        .wt-desc {
+            font-size:.95rem;
+            color:var(--text-muted);
+            line-height:1.85;
+            margin-bottom:16px;
+        }
+        .wt-tags {
+            display:flex;
+            flex-wrap:wrap;
+            gap:8px;
+        }
+        .wt-tags span {
+            font-size:.72rem;
+            padding:5px 14px;
+            background:rgba(201,169,110,.1);
+            border:1px solid var(--border);
+            border-radius:40px;
+            color:var(--accent);
+        }
+
+        /* Work experience image gallery */
+        .wt-gallery-label {
+            font-size:.66rem;
+            letter-spacing:.18em;
+            text-transform:uppercase;
+            color:var(--accent);
+            margin:22px 0 12px;
+            display:flex;
+            align-items:center;
+            gap:12px;
+        }
+        .wt-gallery-label::after {
+            content:'';
+            flex:1;
+            height:1px;
+            background:var(--border);
+        }
+        .wt-gallery {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(150px,1fr));
+            gap:10px;
+        }
+        .wt-thumb {
+            position:relative;
+            margin:0;
+            border-radius:8px;
+            overflow:hidden;
+            cursor:pointer;
+            aspect-ratio:4/3;
+            background:var(--surface2);
+            border:1px solid var(--border);
+            transition:transform .4s cubic-bezier(.25,.46,.45,.94), box-shadow .4s, border-color .4s;
+        }
+        .wt-thumb:hover {
+            transform:translateY(-3px);
+            border-color:rgba(201,169,110,.5);
+            box-shadow:0 10px 28px rgba(0,0,0,.5);
+        }
+        .wt-thumb img {
+            width:100%; height:100%;
+            object-fit:cover;
+            display:block;
+            transition:transform .6s, filter .6s;
+            filter:saturate(.9) brightness(.92);
+        }
+        .wt-thumb:hover img { transform:scale(1.06); filter:saturate(1) brightness(1); }
+        .wt-thumb:focus-visible,
+        .cert-item:focus-visible {
+            outline:2px solid var(--accent);
+            outline-offset:2px;
+        }
+        .wt-thumb figcaption {
+            position:absolute;
+            left:0; right:0; bottom:0;
+            padding:8px 10px;
+            font-size:.68rem;
+            color:#fff;
+            background:linear-gradient(to top, rgba(10,10,10,.92), transparent);
+            letter-spacing:.02em;
+        }
+        @media (max-width:768px){
+            .wt-gallery { grid-template-columns:repeat(2,1fr); gap:8px; }
+            .wt-thumb figcaption { font-size:.6rem; padding:5px 7px; }
+        }
+
+        /* Mobile responsive for new section */
+        @media (max-width:768px) {
+            .subsection-title { font-size:1.2rem; margin:40px 0 22px; }
+            .projects-grid { grid-template-columns:1fr; }
+            .work-timeline { padding-left:32px; }
+            .work-timeline::before { left:8px; }
+            .wt-dot { left:-28px; }
+        }
+
+        /* ====== AWARDS ====== */
+        #awards {
+            background:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images/awards-bg.jpg') center/cover fixed no-repeat;
+        }
+        .awards-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(340px,1fr));
+            gap:2px;
+            margin-top:0;
+            background:var(--border);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            overflow:hidden;
+        }
+        .award-item {
+            background:var(--surface);
+            padding:28px 28px;
+            transition:background .3s;
+        }
+        .award-item:hover { background:var(--surface2); }
+        .award-rank {
+            font-size:.65rem;
+            letter-spacing:.15em;
+            text-transform:uppercase;
+            color:var(--accent);
+            margin-bottom:8px;
+        }
+        .award-name {
+            font-family:'Noto Serif SC',serif;
+            font-size:1rem;
+            font-weight:600;
+            line-height:1.4;
+            margin-bottom:8px;
+        }
+        .award-org {
+            font-size:.78rem;
+            color:var(--text-muted);
+        }
+
+        /* ====== CERTIFICATE GALLERY ====== */
+        .cert-section-label {
+            font-size:.7rem;
+            letter-spacing:.2em;
+            text-transform:uppercase;
+            color:var(--accent);
+            text-align:center;
+            margin-top:60px;
+            margin-bottom:24px;
+        }
+        .cert-gallery {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+            gap:10px;
+        }
+        .cert-item {
+            position:relative;
+            border-radius:10px;
+            overflow:hidden;
+            cursor:pointer;
+            aspect-ratio:4/5;
+            background:var(--surface2);
+            transition:transform .4s cubic-bezier(.25,.46,.45,.94), box-shadow .4s;
+        }
+        .cert-item:hover {
+            transform:translateY(-4px) scale(1.02);
+            box-shadow:0 12px 32px rgba(0,0,0,.5);
+        }
+        .cert-item img {
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display:block;
+            transition:transform .6s;
+        }
+        .cert-item:hover img {
+            transform:scale(1.08);
+        }
+
+        /* Lightbox */
+        .lightbox {
+            display:none;
+            position:fixed;
+            top:0; left:0; right:0; bottom:0;
+            z-index:9999;
+            background:rgba(0,0,0,.92);
+            backdrop-filter:blur(12px);
+            justify-content:center;
+            align-items:center;
+            padding:40px;
+            opacity:0;
+            transition:opacity .3s;
+        }
+        .lightbox.active {
+            display:flex;
+            opacity:1;
+        }
+        .lightbox img {
+            max-width:90%;
+            max-height:90vh;
+            object-fit:contain;
+            border-radius:8px;
+            box-shadow:0 20px 60px rgba(0,0,0,.6);
+        }
+        .lightbox-close {
+            position:absolute;
+            top:24px; right:32px;
+            color:#fff;
+            font-size:2rem;
+            cursor:pointer;
+            width:48px; height:48px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:rgba(255,255,255,.1);
+            border-radius:50%;
+            transition:background .2s;
+            border:none;
+        }
+        .lightbox-close:hover { background:rgba(255,255,255,.25); }
+        .lightbox-nav {
+            position:absolute;
+            top:50%;
+            transform:translateY(-50%);
+            color:#fff;
+            font-size:2rem;
+            cursor:pointer;
+            width:48px; height:48px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            background:rgba(255,255,255,.1);
+            border-radius:50%;
+            transition:background .2s;
+            border:none;
+        }
+        .lightbox-nav:hover { background:rgba(255,255,255,.25); }
+        .lightbox-prev { left:24px; }
+        .lightbox-next { right:24px; }
+        .lightbox-counter {
+            position:absolute;
+            bottom:24px;
+            left:50%;
+            transform:translateX(-50%);
+            color:rgba(255,255,255,.6);
+            font-size:.85rem;
+            letter-spacing:.1em;
+        }
+
+        /* ====== SKILLS ====== */
+        #skills { background:var(--surface); }
+        .skills-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+            gap:2px;
+            margin-top:60px;
+            background:var(--border);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            overflow:hidden;
+        }
+        .skill-item {
+            background:var(--surface);
+            padding:32px 28px;
+            transition:background .3s;
+        }
+        .skill-item:hover { background:var(--surface2); }
+        .skill-icon {
+            font-size:2rem;
+            margin-bottom:16px;
+            display:block;
+        }
+        .skill-name {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.05rem;
+            font-weight:600;
+            margin-bottom:8px;
+        }
+        .skill-desc {
+            font-size:.85rem;
+            color:var(--text-muted);
+            line-height:1.7;
+        }
+
+        /* ====== WORKS ====== */
+        #works { background:var(--bg); }
+        .works-featured {
+            margin-top:48px;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:24px;
+            max-width:1100px;
+        }
+        /* DAVINCI COLOR GRADING - pure image grid */
+        .davinci-grid {
+            margin-top:48px;
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:8px;
+            max-width:1100px;
+        }
+        .davinci-tile {
+            position:relative;
+            display:block;
+            aspect-ratio:16/9;
+            overflow:hidden;
+            border-radius:8px;
+            cursor:pointer;
+        }
+        .davinci-tile img {
+            width:100%;
+            height:100%;
+            object-fit:cover;
+            display:block;
+            transition:transform .5s ease;
+        }
+        .davinci-tile:hover img {
+            transform:scale(1.02);
+        }
+        /* 按钮：永远显示在右下角 */
+        .davinci-btn {
+            position:absolute;
+            bottom:16px;
+            right:16px;
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            padding:8px 16px;
+            background:rgba(10,10,10,.85);
+            backdrop-filter:blur(8px);
+            color:var(--accent);
+            font-size:.72rem;
+            font-weight:600;
+            letter-spacing:.06em;
+            text-decoration:none;
+            border-radius:4px;
+            border:1px solid rgba(201,169,110,.35);
+            transition:background .25s, border-color .25s;
+            z-index:2;
+        }
+        .davinci-btn:hover {
+            background:var(--accent);
+            color:#0a0a0a;
+            border-color:var(--accent);
+        }
+        @media (max-width:768px) {
+            .davinci-grid { grid-template-columns:1fr; }
+            .davinci-btn { bottom:10px; right:10px; padding:6px 12px; font-size:.68rem; }
+        }
+        .work-doc-card-secondary {
+            max-width:100%;
+            aspect-ratio:16/9;
+        }
+        .work-doc-card {
+            position:relative;
+            width:100%;
+            max-width:1100px;
+            aspect-ratio:16/9;
+            overflow:hidden;
+            border-radius:16px;
+            border:1px solid var(--border);
+            box-shadow:0 24px 80px rgba(0,0,0,.5);
+            transition:box-shadow .4s, transform .4s, border-color .4s;
+            cursor:pointer;
+        }
+        .work-doc-card:hover {
+            transform:translateY(-4px);
+            border-color:rgba(201,169,110,.5);
+            box-shadow:
+                0 0 0 1px rgba(201,169,110,.2),
+                0 0 30px rgba(201,169,110,.12),
+                0 0 60px rgba(201,169,110,.06),
+                0 32px 90px rgba(0,0,0,.55);
+        }
+        .work-doc-img {
+            width:100%; height:100%;
+            object-fit:cover;
+            filter:brightness(.7) saturate(.8);
+            transition:transform .6s, filter .6s;
+        }
+        .work-doc-card:hover .work-doc-img {
+            transform:scale(1.03);
+            filter:brightness(.55) saturate(1);
+        }
+        .work-doc-overlay {
+            position:absolute; inset:0;
+            background:linear-gradient(to top, rgba(10,10,10,.95) 0%, rgba(10,10,10,.4) 45%, transparent 70%);
+            display:flex; flex-direction:column; justify-content:space-between;
+            padding:32px 40px;
+        }
+        .work-doc-meta { display:flex; flex-direction:column; gap:10px; }
+        .work-doc-type {
+            font-size:.65rem; letter-spacing:.18em; text-transform:uppercase;
+            color:var(--accent); font-weight:500;
+        }
+        .work-doc-badges { display:flex; gap:10px; flex-wrap:wrap; }
+        .work-doc-badge {
+            font-size:.68rem; letter-spacing:.06em;
+            background:rgba(201,169,110,.12);
+            border:1px solid rgba(201,169,110,.3);
+            color:var(--accent);
+            padding:4px 14px; border-radius:40px;
+        }
+        .work-doc-bottom { display:flex; flex-direction:column; gap:12px; }
+        .work-doc-title {
+            font-family:'Noto Serif SC', serif;
+            font-size:clamp(2rem, 5vw, 3.5rem);
+            font-weight:700; color:#fff;
+            line-height:1.1;
+            text-shadow:0 2px 20px rgba(0,0,0,.5);
+        }
+        .work-doc-desc {
+            font-size:.85rem; color:rgba(255,255,255,.65);
+            max-width:560px; line-height:1.7;
+        }
+        .xinpianchang-btn {
+            display:inline-flex; align-items:center; gap:10px;
+            position:absolute; bottom:36px; right:40px;
+            padding:12px 28px;
+            background:var(--accent);
+            color:#0a0a0a;
+            font-size:.78rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+            text-decoration:none; border-radius:6px;
+            transition:background .3s, box-shadow .3s, transform .2s;
+        }
+        .xinpianchang-btn:hover {
+            background:var(--accent2);
+            box-shadow:0 0 28px rgba(201,169,110,.4), 0 0 56px rgba(201,169,110,.2);
+            transform:translateY(-2px);
+        }
+        @media (max-width:768px) {
+            .work-doc-overlay { padding:20px 24px; }
+            .work-doc-title { font-size:1.8rem; }
+            .work-doc-desc { display:none; }
+            .xinpianchang-btn { bottom:20px; right:20px; padding:10px 20px; font-size:.7rem; }
+        }
+        .works-grid {
+            display:grid;
+            grid-template-columns:1fr 1fr;
+            gap:2px;
+            margin-top:60px;
+            background:var(--border);
+        }
+        .work-item {
+            position:relative;
+            overflow:hidden;
+            aspect-ratio:16/9;
+            background:var(--surface);
+            cursor:pointer;
+            group:true;
+        }
+        .work-item:first-child {
+            grid-column:span 2;
+            aspect-ratio:16/7;
+        }
+        .work-img {
+            width:100%; height:100%;
+            object-fit:cover;
+            transition:transform .6s, filter .6s;
+            filter:brightness(.75) saturate(.9);
+        }
+        .work-item:hover .work-img {
+            transform:scale(1.04);
+            filter:brightness(.55) saturate(1);
+        }
+        .work-overlay {
+            position:absolute;
+            inset:0;
+            background:linear-gradient(to top, rgba(10,10,10,.9) 0%, transparent 60%);
+            display:flex;
+            flex-direction:column;
+            justify-content:flex-end;
+            padding:32px;
+            opacity:0;
+            transition:opacity .4s;
+        }
+        .work-item:hover .work-overlay { opacity:1; }
+        .work-type {
+            font-size:.65rem;
+            letter-spacing:.15em;
+            text-transform:uppercase;
+            color:var(--accent);
+            margin-bottom:8px;
+        }
+        .work-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:1.2rem;
+            font-weight:600;
+            margin-bottom:6px;
+        }
+        .work-sub {
+            font-size:.8rem;
+            color:var(--text-muted);
+        }
+        .work-arrow {
+            position:absolute;
+            top:24px; right:24px;
+            width:36px; height:36px;
+            border:1px solid var(--border);
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:.8rem;
+            color:var(--accent);
+            opacity:0;
+            transition:opacity .3s, transform .3s;
+        }
+        .work-item:hover .work-arrow { opacity:1; transform:rotate(-45deg); }
+        .work-link {
+            display:inline-flex;
+            align-items:center;
+            gap:8px;
+            margin-top:14px;
+            font-size:.75rem;
+            letter-spacing:.1em;
+            color:var(--accent);
+            text-decoration:none;
+            text-transform:uppercase;
+            border-bottom:1px solid var(--border);
+            padding-bottom:4px;
+            transition:border-color .3s;
+        }
+        .work-link:hover { border-color:var(--accent); }
+
+        /* ====== CONTACT ====== */
+        #contact { background:var(--surface); text-align:center; }
+        .contact-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:clamp(2rem,5vw,3.5rem);
+            font-weight:700;
+            margin-bottom:20px;
+        }
+        .contact-sub {
+            color:var(--text-muted);
+            font-size:1.15rem;
+            margin-bottom:60px;
+        }
+        .contact-methods {
+            display:flex;
+            justify-content:center;
+            gap:2px;
+            margin-bottom:60px;
+            background:var(--border);
+            border:1px solid var(--border);
+            border-radius:var(--radius);
+            overflow:hidden;
+        }
+        .contact-method {
+            flex:1;
+            max-width:280px;
+            background:var(--surface);
+            padding:32px 24px;
+            transition:background .3s;
+        }
+        .contact-method:hover { background:var(--surface2); }
+        .contact-method-icon { font-size:1.6rem; margin-bottom:12px; }
+        .contact-method-label {
+            font-size:.9rem;
+            letter-spacing:.1em;
+            color:var(--text);
+            font-weight:600;
+            margin-bottom:8px;
+        }
+        .contact-method-value {
+            font-size:1.05rem;
+            color:var(--text);
+            word-break:break-all;
+        }
+        .contact-method-value a {
+            color:inherit;
+            text-decoration:none;
+        }
+        .contact-method-value a:hover { color:var(--accent); }
+        .contact-cta {
+            display:inline-flex;
+            align-items:center;
+            gap:12px;
+            padding:16px 48px;
+            background:var(--accent);
+            color:#0a0a0a;
+            font-weight:600;
+            font-size:.85rem;
+            letter-spacing:.1em;
+            text-decoration:none;
+            border-radius:40px;
+            text-transform:uppercase;
+            transition:all .3s;
+        }
+        .contact-cta:hover { background:var(--accent2); transform:translateY(-2px); box-shadow:0 8px 30px rgba(201,169,110,.3); }
+
+        .section-note {
+            text-align:center;
+            font-size:.8rem;
+            line-height:1.8;
+            letter-spacing:.05em;
+            color:var(--text-muted);
+            margin:-8px auto 34px;
+            max-width:760px;
+        }
+
+        /* ====== DOUYIN ====== */
+        #douyin {
+            background:
+                linear-gradient(to bottom, rgba(10,10,10,.85) 0%, rgba(10,10,10,.7) 50%, rgba(10,10,10,.85) 100%),
+                url('images/douyin-bg.jpg') center/cover fixed no-repeat;
+        }
+        .douyin-lead {
+            text-align:center;
+            font-size:.78rem;
+            letter-spacing:.12em;
+            color:var(--text-muted);
+            margin-bottom:32px;
+            margin-top:-16px;
+            text-transform:uppercase;
+        }
+        .douyin-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+            gap:2px;
+            background:var(--border);
+            border:1px solid var(--border);
+            border-radius:12px;
+            overflow:hidden;
+            margin-bottom:40px;
+        }
+        .douyin-item {
+            display:flex;
+            align-items:center;
+            gap:16px;
+            background:var(--bg);
+            padding:20px 24px;
+            text-decoration:none;
+            transition:background .3s, box-shadow .3s, border-color .3s;
+            border:1px solid transparent;
+            position:relative;
+        }
+        .douyin-item::before {
+            content:'';
+            position:absolute; inset:0;
+            box-shadow:inset 0 0 0 0 rgba(201,169,110,0);
+            transition:box-shadow .3s;
+            pointer-events:none;
+            border-radius:0;
+        }
+        .douyin-item:hover {
+            background:var(--surface2);
+            border-color:rgba(201,169,110,.25);
+            box-shadow:0 0 0 1px rgba(201,169,110,.15), 0 0 20px rgba(201,169,110,.07);
+        }
+        .douyin-item:hover::before {
+            box-shadow:inset 0 0 0 2px rgba(201,169,110,.35);
+        }
+        .douyin-thumb {
+            font-size:1.8rem;
+            flex-shrink:0;
+            width:48px; height:48px;
+            display:flex; align-items:center; justify-content:center;
+            background:var(--surface2);
+            border-radius:10px;
+            transition:background .3s, transform .3s;
+        }
+        .douyin-item:hover .douyin-thumb {
+            background:rgba(201,169,110,.15);
+            transform:scale(1.08);
+        }
+        .douyin-info { flex:1; min-width:0; }
+        .douyin-title {
+            font-family:'Noto Serif SC',serif;
+            font-size:.95rem;
+            font-weight:600;
+            color:var(--text);
+            transition:color .3s;
+            color:var(--text);
+            margin-bottom:4px;
+            white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+        }
+        .douyin-sub { font-size:.75rem; color:var(--text-muted); }
+        .douyin-arrow {
+            font-size:1rem;
+            color:var(--accent);
+            flex-shrink:0;
+            transition:transform .3s;
+        }
+        .douyin-item:hover .douyin-arrow { transform:translate(3px,-3px); }
+        .douyin-footer { text-align:center; }
+        .douyin-portal-link {
+            display:inline-flex;
+            align-items:center;
+            gap:8px;
+            font-size:.8rem;
+            letter-spacing:.1em;
+            color:var(--accent);
+            text-decoration:none;
+            padding:10px 28px;
+            border:1px solid rgba(201,169,110,.35);
+            border-radius:40px;
+            transition:all .3s;
+            text-transform:uppercase;
+        }
+        .douyin-portal-link:hover {
+            background:rgba(201,169,110,.1);
+            border-color:var(--accent);
+            box-shadow:0 0 20px rgba(201,169,110,.15);
+            color:var(--accent2);
+        }
+        .douyin-portal-link:hover { border-color:var(--accent); }
+
+        /* ====== RESUME DOWNLOAD ====== */
+        .resume-download {
+            display:flex;
+            justify-content:center;
+            gap:16px;
+            margin-top:32px;
+            flex-wrap:wrap;
+        }
+        .resume-btn {
+            display:inline-flex;
+            align-items:center;
+            gap:10px;
+            padding:18px 44px;
+            border:1px solid rgba(201,169,110,.4);
+            border-radius:40px;
+            font-size:1.15rem;
+            color:var(--text);
+            background:rgba(201,169,110,.08);
+            text-decoration:none;
+            transition:all .3s;
+        }
+        .resume-btn:hover {
+            border-color:var(--accent);
+            color:#0a0a0a;
+            background:var(--accent);
+            transform:translateY(-2px);
+            box-shadow:0 8px 30px rgba(201,169,110,.25);
+        }
+
+
+        /* ====== AI CREDITS ====== */
+        .credits {
+            padding:36px 80px 28px;
+            text-align:center;
+        }
+        .credits-line {
+            display:inline-flex;
+            align-items:center;
+            gap:14px;
+            padding:14px 36px;
+            border-top:1px solid var(--border);
+            border-bottom:1px solid var(--border);
+            color:var(--text-muted);
+        }
+        .credits-icon { display:inline-flex; align-items:center; line-height:1; }
+        .credits-icon svg { width:28px; height:28px; display:block; }
+        .credits-text {
+            font-size:.85rem;
+            letter-spacing:.06em;
+            color:var(--text-muted);
+        }
+        .credits-text em { color:var(--accent); font-weight:600; }
+        @media (max-width:768px) {
+            .credits { padding:28px 24px 22px; }
+            .credits-line { gap:10px; padding:12px 20px; }
+            .credits-text { font-size:.75rem; }
+        }
+
+        /* ====== MICRO-INTERACTIONS ====== */
+        /* link underline animation */
+        nav a, .contact-method-value a {
+            position:relative;
+        }
+        nav a::after, .contact-method-value a::after {
+            content:'';
+            position:absolute;
+            left:50%;
+            bottom:-5px;
+            width:100%;
+            height:1px;
+            background:var(--accent);
+            transform:translateX(-50%) scaleX(0);
+            transform-origin:center;
+            transition:transform .35s cubic-bezier(.22,1,.36,1);
+        }
+        nav a:hover::after, nav a.active::after,
+        .contact-method-value a:hover::after {
+            transform:translateX(-50%) scaleX(1);
+        }
+        /* 3D tilt cards */
+        .proj-card, .cap-card, .work-doc-card {
+            will-change:transform;
+        }
+        /* image hover: micro-zoom + title slide-in */
+        .proj-cover-overlay {
+            transition:transform .45s cubic-bezier(.22,1,.36,1), opacity .45s;
+        }
+        .proj-card:hover .proj-cover-overlay {
+            transform:translateY(6px);
+        }
+        .work-doc-overlay {
+            transition:background .5s;
+        }
+        .work-doc-meta, .work-doc-bottom {
+            transition:transform .5s cubic-bezier(.22,1,.36,1);
+        }
+        .work-doc-card:hover .work-doc-meta { transform:translateY(4px); }
+        .work-doc-card:hover .work-doc-bottom { transform:translateY(-4px); }
+        @media (max-width:768px) {
+            .proj-card:hover .proj-cover-overlay,
+            .work-doc-card:hover .work-doc-meta,
+            .work-doc-card:hover .work-doc-bottom { transform:none; }
+        }
+        /* ====== FOOTER ====== */
+        footer {
+            background:var(--bg);
+            padding:32px 80px;
+            border-top:1px solid var(--border);
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .footer-left {
+            font-size:.75rem;
+            color:var(--text-muted);
+        }
+        .footer-left strong { color:var(--accent); font-weight:500; }
+        .footer-right {
+            font-size:.7rem;
+            letter-spacing:.1em;
+            color:var(--text-muted);
+        }
+
+        /* ====== ANIMATIONS ====== */
+        @keyframes fadeUp {
+            from { opacity:0; transform:translateY(24px); }
+            to { opacity:1; transform:translateY(0); }
+        }
+        .reveal {
+            opacity:0;
+            transform:translateY(30px);
+            transition:opacity .7s, transform .7s;
+        }
+        .reveal.visible {
+            opacity:1;
+            transform:translateY(0);
+        }
+
+        /* ====== RESPONSIVE ====== */
+        @media (max-width:1024px) {
+            section { padding:80px 40px; }
+            nav { padding:0 40px; }
+            .hero { padding:0 40px 60px; }
+            .hero-scroll { right:40px; }
+            footer { padding:32px 40px; }
+        }
+        @media (max-width:768px) {
+            section { padding:80px 24px; }
+            nav { padding:0 24px; }
+            .nav-toggle { display:flex; }
+            nav ul {
+                display:flex;
+                flex-direction:column;
+                position:fixed;
+                top:72px;
+                left:0;
+                right:0;
+                gap:4px;
+                margin:0;
+                padding:10px 24px 20px;
+                background:rgba(10,10,10,.97);
+                backdrop-filter:blur(20px);
+                border-bottom:1px solid var(--border);
+                box-shadow:0 24px 40px rgba(0,0,0,.45);
+                transform:translateY(-10px);
+                opacity:0;
+                pointer-events:none;
+                transition:opacity .3s, transform .3s;
+            }
+            nav ul.open {
+                transform:none;
+                opacity:1;
+                pointer-events:auto;
+            }
+            nav ul a { display:block; padding:11px 0; font-size:.95rem; letter-spacing:.1em; }
+            nav.open .nav-toggle span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+            nav.open .nav-toggle span:nth-child(2) { opacity:0; }
+            nav.open .nav-toggle span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+            .hero { padding:0 24px 60px; }
+            .hero-scroll { display:none; }
+            .about-grid { grid-template-columns:1fr; gap:48px; }
+            .stat-row { grid-template-columns:repeat(2,1fr); }
+            .edu-card { grid-template-columns:1fr; }
+            .edu-card-period {
+                grid-column:1; grid-row:4; border-left:none;
+                border-top:1px solid var(--border);
+                padding-left:0; padding-top:14px;
+                writing-mode:horizontal-tb;
+                transform:none;
+                text-align:left;
+            }
+            .wt-item { margin-bottom:40px; }
+            .works-grid { grid-template-columns:1fr; }
+            .work-item:first-child { grid-column:span 1; aspect-ratio:16/10; }
+            .works-featured { grid-template-columns:1fr; }
+            .work-doc-card-secondary { aspect-ratio:16/10; }
+            .work-overlay { opacity:1; }
+            .contact-methods { flex-direction:column; align-items:center; }
+            .contact-method { max-width:100%; width:100%; }
+            .resume-download { flex-direction:column; align-items:stretch; }
+            .resume-btn { width:100%; justify-content:center; }
+            footer { flex-direction:column; gap:12px; text-align:center; padding:32px 24px; }
+        }
+        /* Personal Photos */
+        .photos-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .photo-item {
+            position: relative;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            border-radius: 12px;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        .photo-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(212, 175, 55, 0.2);
+        }
+        .photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s ease;
+        }
+        .photo-item:hover img {
+            transform: scale(1.05);
+        }
+        @media (max-width:768px) {
+            .photos-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 16px;
+            }
+            /* Disable parallax on mobile for performance */
+            #experience, #projects, #awards, #douyin {
+                background-attachment: scroll !important;
+            }
+        }
+        /* WebP background support */
+        .webp .hero-bg {
+            background-image:
+                linear-gradient(to bottom, rgba(10,10,10,.3) 0%, rgba(10,10,10,.1) 40%, rgba(10,10,10,.85) 80%, var(--bg) 100%),
+                url('images-webp/hero-bg.webp');
+        }
+        .webp#experience, .webp #experience {
+            background-image:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images-webp/experience-bg.webp');
+        }
+        .webp#projects, .webp #projects {
+            background-image:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images-webp/work-projects-bg.webp');
+        }
+        .webp#awards, .webp #awards {
+            background-image:
+                linear-gradient(to bottom, rgba(10,10,10,.88) 0%, rgba(10,10,10,.65) 50%, rgba(10,10,10,.88) 100%),
+                url('images-webp/awards-bg.webp');
+        }
+        .webp#douyin, .webp #douyin {
+            background-image:
+                linear-gradient(to bottom, rgba(10,10,10,.85) 0%, rgba(10,10,10,.7) 50%, rgba(10,10,10,.85) 100%),
+                url('images-webp/douyin-bg.webp');
+        }
+
+        /* ====== GOLDEN GLOW HOVER — GLOBAL PREMIUM EFFECT ====== */
+        /* Nav links */
+        nav a:hover {
+            color: var(--accent2);
+            text-shadow: 0 0 12px rgba(201,169,110,.5);
+        }
+        /* Hero tag pills */
+        .hero-tags span:hover {
+            border-color: rgba(201,169,110,.5);
+            color: var(--accent2);
+            box-shadow: 0 0 14px rgba(201,169,110,.18), inset 0 0 8px rgba(201,169,110,.06);
+        }
+        /* CTA button */
+        .hero-cta {
+            display:inline-flex; align-items:center; gap:10px;
+            padding:14px 32px;
+            background:transparent;
+            border:1px solid var(--accent);
+            color:var(--accent);
+            font-size:.8rem; letter-spacing:.15em; text-transform:uppercase;
+            text-decoration:none; border-radius:4px;
+            transition:background .3s, color .3s, box-shadow .3s, transform .2s;
+        }
+        .hero-cta:hover {
+            background:var(--accent);
+            color:var(--bg);
+            box-shadow: 0 0 24px rgba(201,169,110,.35), 0 0 48px rgba(201,169,110,.15);
+            transform:translateY(-1px);
+        }
+        .hero-cta.outline:hover {
+            background:transparent;
+            color:var(--accent);
+            border-color:rgba(201,169,110,.6);
+            box-shadow: 0 0 20px rgba(201,169,110,.2);
+        }
+        /* Project cards */
+        .proj-card:hover .proj-cover img {
+            transform:scale(1.05);
+            filter:brightness(.9) saturate(1);
+        }
+        /* Work cards */
+        .work-card:hover {
+            transform:translateY(-3px);
+            box-shadow:
+                0 0 0 1px rgba(201,169,110,.2),
+                0 0 18px rgba(201,169,110,.1),
+                0 0 36px rgba(201,169,110,.06),
+                0 12px 40px rgba(0,0,0,.45);
+            border-color:rgba(201,169,110,.4);
+        }
+        /* Award items */
+        .award-item:hover {
+            background:var(--surface2);
+            box-shadow:
+                0 0 0 1px rgba(201,169,110,.18),
+                0 0 16px rgba(201,169,110,.09),
+                inset 0 0 20px rgba(201,169,110,.04);
+            border-color:rgba(201,169,110,.3);
+        }
+        /* Certificate grid items */
+        .cert-item:hover::after {
+            content:'';
+            position:absolute; inset:0;
+            border-radius:12px;
+            box-shadow:inset 0 0 0 2px rgba(201,169,110,.5), 0 0 20px rgba(201,169,110,.2);
+            pointer-events:none;
+        }
+        .cert-item:hover { transform:translateY(-2px) scale(1.015); }
+        /* Skill & proj tags */
+        .skill-tag:hover, .proj-tags span:hover {
+            border-color:rgba(201,169,110,.55);
+            color:var(--accent2);
+            box-shadow:0 0 10px rgba(201,169,110,.15);
+        }
+        /* Metrics */
+        .metric:hover { transform:translateY(-2px); }
+        .metric:hover .metric-val {
+            color:var(--accent2);
+            text-shadow:0 0 12px rgba(201,169,110,.4);
+        }
+        /* Contact items */
+        .contact-item:hover .contact-icon,
+        .contact-item:hover a {
+            color:var(--accent2);
+            text-shadow:0 0 10px rgba(201,169,110,.35);
+        }
+        /* Reveal animation base — no glow on load, glow on hover via JS adding .glow class */
+        .reveal.glow {
+            box-shadow:
+                0 0 0 1px rgba(201,169,110,.15),
+                0 0 30px rgba(201,169,110,.07);
+        }
+    
+        /* ====== MOBILE DENSITY (desktop unchanged) ====== */
+        @media (max-width:768px) {
+            section { padding:48px 20px; }
+            #about { padding-bottom:26px; }
+            #capabilities { padding-top:26px; }
+            .section-label { margin-bottom:8px; }
+            .section-title { font-size:1.7rem; margin-bottom:10px; }
+            .divider { margin-bottom:26px; }
+
+            .hero { height:86vh; min-height:540px; padding:0 20px 44px; }
+            .hero-tag { font-size:.72rem; }
+            .hero-name { font-size:2.6rem; }
+            .hero-sub { font-size:.95rem; }
+            .hero-tags { gap:8px; }
+            .hero-tags span { font-size:.72rem; padding:6px 10px; }
+
+            .about-grid { gap:26px; }
+            .about-quote { font-size:.9rem; line-height:1.75; }
+            .stat-row { gap:10px; }
+            .stat-item { padding:12px 8px; }
+            .stat-num { font-size:1.7rem; }
+            .edu-card { padding:18px; }
+            .edu-card-school { font-size:1.05rem; }
+            .edu-card-degree { font-size:.9rem; }
+            .about-tags span { font-size:.72rem; padding:5px 10px; }
+
+            .cap-grid { grid-template-columns:repeat(2,1fr); gap:10px; }
+            .cap-card { padding:16px 14px 14px; }
+            .cap-num { font-size:1.1rem; margin-bottom:6px; }
+            .cap-title { font-size:.92rem; }
+            .cap-desc { font-size:.74rem; line-height:1.55; margin-top:6px; }
+            .cap-tags { margin-top:8px; gap:4px; }
+            .cap-tags span { font-size:.64rem; padding:3px 7px; }
+
+            .subsection-title { font-size:1.15rem; margin:28px 0 16px; }
+            .projects-grid { gap:16px; }
+            .proj-body { padding:16px 14px; }
+            .proj-company { font-size:.72rem; }
+            .proj-title { font-size:1.15rem; }
+            .proj-desc { font-size:.8rem; line-height:1.65; }
+            .proj-metrics { gap:10px; margin-top:10px; }
+            .metric-val { font-size:1.1rem; }
+            .metric-label { font-size:.62rem; }
+            .proj-tags { gap:5px; margin-top:10px; }
+            .proj-tags span { font-size:.62rem; padding:3px 8px; }
+
+            .work-timeline { padding-left:26px; }
+            .wt-period { font-size:.7rem; }
+            .wt-title { font-size:1.05rem; }
+            .wt-desc { font-size:.8rem; line-height:1.65; }
+            .wt-tags span { font-size:.62rem; padding:3px 8px; }
+            .wt-gallery { gap:6px; }
+            .wt-thumb figcaption { font-size:.58rem; }
+
+            .work-doc-card { border-radius:12px; }
+            .work-doc-type { font-size:.58rem; }
+            .work-doc-badge { font-size:.6rem; padding:3px 9px; }
+            .work-doc-title { font-size:1.55rem; }
+            .xinpianchang-btn { padding:9px 16px; font-size:.64rem; }
+            .davinci-btn { padding:7px 12px; font-size:.64rem; }
+
+            .douyin-item { padding:12px 10px; gap:10px; }
+            .douyin-title { font-size:.9rem; }
+            .douyin-sub { font-size:.68rem; }
+
+            .awards-grid { grid-template-columns:repeat(2,1fr); gap:2px; }
+            .award-item { padding:12px 10px; }
+            .award-rank { font-size:.72rem; }
+            .award-name { font-size:.72rem; }
+            .award-org { font-size:.62rem; }
+
+            .cert-gallery { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; }
+            .cert-item { aspect-ratio:3/2; }
+
+            .contact-methods { margin-bottom:30px; }
+            .contact-method { padding:20px 16px; }
+            .contact-method-icon { font-size:1.3rem; }
+            .contact-cta { padding:14px 34px; font-size:.78rem; }
+            .resume-btn { padding:14px 24px; font-size:1rem; }
+        }
+
+        /* ====== ACCOUNT DIAGNOSIS ====== */
+        .diag-grid {
+            display:grid;
+            grid-template-columns:repeat(2,minmax(0,1fr));
+            gap:22px;
+            margin-top:8px;
+        }
+        .diag-card {
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:12px;
+            padding:26px 24px 22px;
+            display:flex;
+            flex-direction:column;
+        }
+        .diag-head {
+            display:flex;
+            justify-content:space-between;
+            align-items:flex-start;
+            gap:14px;
+            border-bottom:1px dashed var(--border);
+            padding-bottom:14px;
+            margin-bottom:14px;
+        }
+        .diag-title {
+            font-family:'Noto Serif SC','Songti SC',serif;
+            font-size:1.18rem;
+            color:var(--text);
+            line-height:1.35;
+        }
+        .diag-sub {
+            font-size:.7rem;
+            color:var(--text-muted);
+            letter-spacing:.08em;
+            margin-top:6px;
+        }
+        .diag-metrics {
+            display:grid;
+            grid-template-columns:repeat(3,minmax(0,1fr));
+            gap:1px;
+            background:var(--border);
+            border:1px solid var(--border);
+            border-radius:9px;
+            overflow:hidden;
+            margin-bottom:6px;
+        }
+        .diag-metric {
+            background:var(--surface2);
+            text-align:center;
+            padding:11px 4px 10px;
+        }
+        .diag-metric b {
+            display:block;
+            font-family:'Noto Serif SC','Songti SC',serif;
+            font-size:1rem;
+            color:var(--accent2);
+            line-height:1.15;
+        }
+        .diag-metric span {
+            display:block;
+            font-size:.6rem;
+            letter-spacing:.05em;
+            color:var(--text-muted);
+            margin-top:4px;
+        }
+        .diag-label {
+            font-size:.64rem;
+            letter-spacing:.16em;
+            color:var(--accent);
+            text-transform:uppercase;
+            margin:15px 0 7px;
+        }
+        .diag-label:first-of-type { margin-top:0; }
+        .diag-text {
+            font-size:.8rem;
+            line-height:1.78;
+            color:var(--text-muted);
+        }
+        .diag-list {
+            list-style:none;
+            display:flex;
+            flex-direction:column;
+            gap:7px;
+        }
+        .diag-list li {
+            position:relative;
+            padding-left:16px;
+            font-size:.76rem;
+            line-height:1.7;
+            color:var(--text-muted);
+        }
+        .diag-list li::before {
+            content:'';
+            position:absolute;
+            left:0;
+            top:.62em;
+            width:5px;
+            height:5px;
+            background:var(--accent);
+            border-radius:50%;
+        }
+        .diag-conclusion {
+            margin-top:auto;
+            padding-top:14px;
+            font-size:.76rem;
+            line-height:1.75;
+            color:var(--text);
+            border-top:1px solid var(--border);
+        }
+        .diag-method {
+            margin-top:18px;
+            font-size:.68rem;
+            line-height:1.8;
+            color:var(--text-muted);
+            border-left:2px solid var(--border);
+            padding-left:14px;
+        }
+        .diag-download {
+            display:inline-flex;
+            align-items:center;
+            gap:7px;
+            font-size:.7rem;
+            letter-spacing:.05em;
+            color:var(--accent);
+            text-decoration:none;
+            border:1px solid var(--border);
+            padding:9px 16px;
+            border-radius:40px;
+            margin-top:16px;
+            transition:background .3s, color .3s, border-color .3s;
+        }
+        .diag-download:hover {
+            background:var(--accent);
+            color:#0a0a0a;
+            border-color:var(--accent);
+        }
+
+        /* ====== DOCUMENT LIBRARY ====== */
+        #documents { background:var(--bg); }
+        .doc-grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(290px,1fr));
+            gap:18px;
+        }
+        .doc-card {
+            background:var(--surface);
+            border:1px solid var(--border);
+            border-radius:12px;
+            padding:22px 20px 18px;
+            display:flex;
+            flex-direction:column;
+            min-height:218px;
+            transition:border-color .3s, transform .3s;
+        }
+        .doc-card:hover {
+            border-color:rgba(201,169,110,.45);
+            transform:translateY(-2px);
+        }
+        .doc-icon { font-size:1.25rem; margin-bottom:12px; }
+        .doc-type {
+            font-size:.6rem;
+            letter-spacing:.18em;
+            color:var(--accent);
+            text-transform:uppercase;
+            margin-bottom:8px;
+        }
+        .doc-title {
+            font-family:'Noto Serif SC','Songti SC',serif;
+            font-size:.98rem;
+            color:var(--text);
+            line-height:1.5;
+            margin-bottom:8px;
+        }
+        .doc-desc {
+            font-size:.73rem;
+            line-height:1.7;
+            color:var(--text-muted);
+            margin-bottom:14px;
+        }
+        .doc-links {
+            margin-top:auto;
+            display:flex;
+            gap:8px;
+            flex-wrap:wrap;
+        }
+        .doc-btn {
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            font-size:.66rem;
+            letter-spacing:.04em;
+            padding:7px 13px;
+            border-radius:40px;
+            text-decoration:none;
+            border:1px solid var(--border);
+            color:var(--text-muted);
+            transition:background .3s, color .3s, border-color .3s;
+        }
+        .doc-btn:hover {
+            background:var(--accent);
+            color:#0a0a0a;
+            border-color:var(--accent);
+        }
+        .doc-btn.off { cursor:default; opacity:.8; }
+        .doc-btn.off:hover { background:transparent; color:var(--text-muted); border-color:var(--border); }
+
+        @media (max-width:900px) {
+            .diag-grid { grid-template-columns:1fr; }
+        }
+        @media (max-width:768px) {
+            .doc-grid { grid-template-columns:1fr; }
+            .doc-card { min-height:0; }
+            .diag-card { padding:20px 16px 18px; }
+        }
+</style>
+</head>
+<body>
+
+<!-- CURSOR -->
+<div class="cursor-dot" id="cd"></div>
+<div class="cursor-ring" id="cr"></div>
+
+<!-- NAV -->
+<nav id="nav">
+    <a href="#home" class="nav-logo">Zhao Zexuan <span>新闻学</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+    </button>
+    <ul id="navMenu">
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#capabilities">能力</a></li>
+        <li><a href="#projects">代表案例</a></li>
+        <li><a href="#works">编导作品</a></li>
+        <li><a href="#douyin">抖音</a></li>
+        <li><a href="#awards">荣誉</a></li>
+        <li><a href="#contact">联系</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-content">
+        <div class="hero-tag">求职：品牌策划 · 内容编导 · 新媒体策划 | 杭州 · 上海 | 2026 届新闻学</div>
+        <h1 class="hero-name">赵泽玄</h1>
+        <p class="hero-sub">把品牌诉求，翻译成观众愿意看完的内容。<br>执笔政务活动全案，服务百万粉 IP 的内容体系与账号 0→1 孵化——<em>每个结论都能给出方案与数据</em>。</p>
+        <div class="hero-tags">
+            <span>📋 品牌活动全案</span>
+            <span>🎬 脚本 · 编导</span>
+            <span>📈 账号 0→1 孵化</span>
+            <span>🧠 爆款方法论可验证</span>
+        </div>
+    </div>
+    <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="section-label">About</div>
+    <h2 class="section-title">关于我</h2>
+    <div class="divider"></div>
+    <div class="about-grid">
+
+        <div class="about-left reveal">
+            <div class="about-photo-wrap">
+                <div class="about-photo-grid">
+                    <picture><source srcset="images-webp/portrait-1.webp" type="image/webp"><img src="images/portrait-1.jpg" alt="赵泽玄" class="about-portrait" loading="lazy"></picture>
+                    <picture><source srcset="images-webp/portrait-2.webp" type="image/webp"><img src="images/portrait-2.jpg" alt="赵泽玄" class="about-portrait" loading="lazy"></picture>
+                    <picture><source srcset="images-webp/portrait-3.webp" type="image/webp"><img src="images/portrait-3.jpg" alt="赵泽玄" class="about-portrait" loading="lazy"></picture>
+                    <picture><source srcset="images-webp/portrait-4.webp" type="image/webp"><img src="images/portrait-4.jpg" alt="赵泽玄" class="about-portrait" loading="lazy"></picture>
+                </div>
+            </div>
+            <div class="stat-row">
+                <div class="stat-item">
+                    <div class="stat-num">300<span style="font-size:1rem">+</span></div>
+                    <div class="stat-label">人次嘉宾统筹</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">150<span style="font-size:1rem">+</span></div>
+                    <div class="stat-label">艺人矩阵联动</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">181<span style="font-size:1rem">万</span></div>
+                    <div class="stat-label">单条视频最高赞</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-num">97.6<span style="font-size:1rem">万</span></div>
+                    <div class="stat-label">推文累计阅读</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-right reveal">
+            <blockquote class="about-quote">
+                策划的本质，是想清楚<span class="kw">观众为什么等</span>，再让团队把答案交付出来。
+                我的经历横跨<span class="kw">政务活动</span>与<span class="kw">商业内容</span>两端：在江西广播电视台任线下项目活动组长，统筹 <span class="kw">300+ 人次嘉宾</span>与 12 场省内活动，从策划执笔、仪式流程设计、主持稿撰写到现场执行全链条负责；在 MCN 机构服务<span class="kw">夏小夏（822万粉）</span>、<span class="kw">峰峰疯了（103万粉）</span>等头部 IP，主导账号内容策划与视觉生产，把「雷雷不累」从 0 做到 <span class="kw">25 万粉</span>、单条最高 <span class="kw">181 万赞</span>。
+                既能用方法论指导内容，也能亲自下场把控拍摄、剪辑到活动落地的每一个环节——<span class="kw">方案不是交给别人的，是要自己兑现的</span>。
+            </blockquote>
+
+            <div class="edu-card">
+                <div class="edu-card-label">Education</div>
+                <div class="edu-card-school">南昌航空大学科技学院</div>
+                <div class="edu-card-degree">新闻学 · 本科</div>
+                <div class="edu-card-period">2022.09 — 2026.06</div>
+                <div class="edu-courses">
+                    <span>广告策划与创作</span><span>新闻采访与写作</span><span>舆论学概论</span>
+                    <span>编剧理论与技巧</span><span>电视摄影摄像</span>
+                </div>
+            </div>
+
+            <div class="about-tags">
+                <span>品牌策略</span><span>活动策划</span><span>文案撰写</span>
+                <span>项目管理</span><span>内容方法论</span><span>账号孵化</span>
+                <span>用户洞察</span><span>AI 辅助创作</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- WHAT I DO -->
+<section id="capabilities">
+    <div class="section-label">What I Do</div>
+    <h2 class="section-title">我能为岗位带来什么</h2>
+    <div class="divider"></div>
+    <div class="cap-grid">
+        <div class="cap-card reveal">
+            <div class="cap-num">01</div>
+            <h3 class="cap-title">内容策划 · 账号增长</h3>
+            <p class="cap-desc">用「母题 × 期待 × 兑现」判断选题、用选题八问过审、用 L0–L3 分级决定投产，先拦下没有事件与期待的流水线内容。证据：主导「雷雷不累」0→1（25 万粉、单条最高 181 万赞），服务 822 万粉头部 IP。</p>
+            <div class="cap-tags"><span>选题策划</span><span>爆款拆解</span><span>账号 0→1</span><span>数据复盘</span></div>
+        </div>
+        <div class="cap-card reveal">
+            <div class="cap-num">02</div>
+            <h3 class="cap-title">活动全案 · 整合传播</h3>
+            <p class="cap-desc">从主题创意、仪式与流程设计、主持稿与互动问答撰写，到嘉宾统筹与全媒体传播。代表作：永修集体婚礼暨 UP 青年交友活动，10+ 部门联合主办，本人任策划执笔。</p>
+            <div class="cap-tags"><span>策划执笔</span><span>流程设计</span><span>政务 · 文旅传播</span><span>嘉宾统筹</span></div>
+        </div>
+        <div class="cap-card reveal">
+            <div class="cap-num">03</div>
+            <h3 class="cap-title">编导 · 脚本与分镜</h3>
+            <p class="cap-desc">把母题翻译成入口帧 / 期待帧 / 兑现帧 / 余味帧：写脚本、出分镜、现场给达人明确指令——每个镜头都知道在等什么、在兑现什么，而不是"拍高级一点"。</p>
+            <div class="cap-tags"><span>脚本撰写</span><span>四帧结构</span><span>现场编导</span><span>达人沟通</span></div>
+        </div>
+        <div class="cap-card reveal">
+            <div class="cap-num">04</div>
+            <h3 class="cap-title">直播统筹 · 落地执行</h3>
+            <p class="cap-desc">懂执行技术的策划：从方案、SOP 到机位 / 灯光 / 导播多工种协同，百万级流水直播零故障交付；熟练使用 AI 工具辅助策划与内容生产。</p>
+            <div class="cap-tags"><span>项目管理</span><span>直播统筹</span><span>SOP 落地</span><span>AI 工作流</span></div>
+        </div>
+    </div>
+</section>
+
+
+<!-- EXPERIENCE -->
+<section id="projects">
+    <div class="section-label">Portfolio</div>
+    <h2 class="section-title">代表案例</h2>
+    <div class="divider"></div>
+    <p class="section-note">每个案例都讲清「需求 → 策略 → 方案 → 结果」：不只展示我做过什么，更说明我当时为什么这么做、怎样落地、拿到了什么数据。</p>
+    <div class="projects-block">
+        <div class="projects-grid">
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/wt-tv-01.webp" type="image/webp"><img src="images/wt-tv-01.jpg" alt="永修集体婚礼活动" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2025</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">江西广播电视台都市频道</div>
+                    <h3 class="proj-title">永修集体婚礼暨 UP 青年交友活动 · 全案策划</h3>
+                    <p class="proj-desc">永修县多部门联合主办、江西广电都市频道承办的政务 + 文旅大型活动；本人任策划执笔与现场摄影。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">把「移风易俗」从说教转成体验：用中式古礼承接婚俗文化认同，把政策知识点转成现场互动问答。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">撰写整场主持稿：古礼串词（沃盥 / 同牢 / 合卺 / 解缨结发 / 对拜 / 执手）、10 题《文明新风问答赛》（移风易俗 + 吴城文旅题库）、领导致辞衔接与新人宣誓词。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">落地</span><span class="proj-strategy-val">统筹 15 对新人动线与 10+ 部门协同，产出公众号传播影像，配合活动前后全媒体宣发。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">15对</span><span class="metric-label">新人全程执行</span></div>
+                        <div class="metric"><span class="metric-val">10+</span><span class="metric-label">部门联合主办</span></div>
+                        <div class="metric"><span class="metric-val">300+</span><span class="metric-label">人次嘉宾统筹</span></div>
+                    </div>
+                    <div class="proj-tags"><span>策划执笔</span><span>仪式流程设计</span><span>互动问答策划</span><span>文旅传播</span></div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/work-xiaxia-live.webp" type="image/webp"><img src="images/work-xiaxia-live.jpg" alt="夏小夏生日会" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2025</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">杭州呀呀叮咚 · MCN</div>
+                    <h3 class="proj-title">「夏小夏 1108」生日复出专场 · 内容与直播全案</h3>
+                    <p class="proj-desc">头部音乐 IP 停更后的「复出专场」直播（当期账号 808 万粉）；本人参与直播全流程策划与视觉 / 技术统筹。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">把「复出」做成事件：MCN 全矩阵 150+ 艺人助阵放大回归声量，仪式化编排承接期待，直播带动账号粉丝 808 万 → 809 万。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">编排百余位艺人的出场衔接与镜头调度节奏；多机位实时导播 + 全链路信号方案。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">落地</span><span class="proj-strategy-val">统筹场地布景与多工种协同，单场峰值在线破万、礼物流水达百万级，全程零技术故障交付。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">150+</span><span class="metric-label">艺人矩阵联动</span></div>
+                        <div class="metric"><span class="metric-val">10000+</span><span class="metric-label">峰值在线</span></div>
+                        <div class="metric"><span class="metric-val">百万级</span><span class="metric-label">礼物流水</span></div>
+                    </div>
+                    <div class="proj-tags"><span>事件策划</span><span>内容编排</span><span>直播全案</span><span>矩阵联动</span></div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/event-production.webp" type="image/webp"><img src="images/event-production.jpg" alt="呀呀叮咚2026跨年夜活动" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2025</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">杭州呀呀叮咚 · MCN</div>
+                    <h3 class="proj-title">呀呀叮咚 2026 跨年夜 · 20+ 艺人内容编排</h3>
+                    <p class="proj-desc">室内舞台级跨年直播，服务 20+ 位艺人（夏小夏 822 万粉等）；本人主导内容节奏编排与技术方案。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">以「跨年仪式」做内容主线：20+ 艺人轮场编排 + 游戏互动节点，让 5 小时直播保持观看节奏。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">3 台索尼 FX6（70-200 / 100-400）多机位矩阵覆盖全景 / 特写 / 互动三大景别；Blackmagic 导播台实时信号调度。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">落地</span><span class="proj-strategy-val">协同灯光 / 摄像 / 导播全链路执行，前期彩排调试 + 现场应急，5 小时+ 直播零故障，峰值在线 6000+、流水 90 万。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">6000+</span><span class="metric-label">峰值在线</span></div>
+                        <div class="metric"><span class="metric-val">90万</span><span class="metric-label">礼物流水</span></div>
+                        <div class="metric"><span class="metric-val">5h+</span><span class="metric-label">零故障保障</span></div>
+                    </div>
+                    <div class="proj-tags"><span>内容编排</span><span>直播统筹</span><span>多机位方案</span><span>零故障交付</span></div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/wt-cam-02.webp" type="image/webp"><img src="images/wt-cam-02.jpg" alt="内容拍摄现场" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2025–2026</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">MCN 账号孵化</div>
+                    <h3 class="proj-title">「雷雷不累」0→1 账号孵化</h3>
+                    <p class="proj-desc">从 0 到 1 起号项目：主导内容策划与视觉生产，0 做到 25 万粉、单条最高 181 万赞。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">围绕达人最稀缺的资产做人设与选题定位；用「母题 × 期待 × 兑现」判断投产，先拦下没有人物、没有事件的无效内容。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">选题八问过审选题；把每条内容拆成入口 / 期待 / 兑现 / 余味四帧，落到脚本与拍摄指令。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">落地</span><span class="proj-strategy-val">主导拍摄与剪辑全流程，0→25 万粉；同步操盘「小白很白」冷启动，首条视频即 8000 赞。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">25万</span><span class="metric-label">账号粉丝</span></div>
+                        <div class="metric"><span class="metric-val">181万</span><span class="metric-label">单条最高赞</span></div>
+                        <div class="metric"><span class="metric-val">0→1</span><span class="metric-label">冷启动起号</span></div>
+                    </div>
+                    <div class="proj-tags"><span>账号 0→1</span><span>选题策划</span><span>脚本拆解</span><span>爆款验证</span></div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/work-live.webp" type="image/webp"><img src="images/work-live.jpg" alt="峰峰疯了户外直播" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2026</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">杭州呀呀叮咚 · MCN</div>
+                    <h3 class="proj-title">「峰峰疯了」户外直播 · 全案与 SOP</h3>
+                    <p class="proj-desc">103 万粉 IP 的 16:00–20:00 日转夜户外舞台直播；本人独立制定直播技术全案与执行 SOP。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">把「日转夜光线变化」排进内容节奏；三机位分工——正面全景 / 侧面中景 / 互动特写，特写机位联动礼物、物料与观众互动节点。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">完成场地勘景、机位动线、灯光布局（4 台爱图仕 200X + 深抛）与信号链路整体规划，输出可复用 SOP。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">落地</span><span class="proj-strategy-val">3 台索尼 FX3 全程执行，配合导播与运营完成线上 / 线下互动，4 小时画面质感统一、信号零中断。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">4h</span><span class="metric-label">日转夜直播</span></div>
+                        <div class="metric"><span class="metric-val">3机位</span><span class="metric-label">矩阵编排</span></div>
+                        <div class="metric"><span class="metric-val">0</span><span class="metric-label">信号中断</span></div>
+                    </div>
+                    <div class="proj-tags"><span>方案全案</span><span>SOP 化</span><span>内容节奏</span><span>户外直播</span></div>
+                </div>
+            </div>
+
+            <div class="proj-card reveal">
+                <div class="proj-cover">
+                    <picture><source srcset="images-webp/work-photo.webp" type="image/webp"><img src="images/work-photo.jpg" alt="融媒体中心" loading="lazy"></picture>
+                    <div class="proj-cover-overlay"><span class="proj-year">2022 – 2023</span></div>
+                </div>
+                <div class="proj-body">
+                    <div class="proj-company">南昌航空大学科技学院</div>
+                    <h3 class="proj-title">融媒体中心 · 传播体系搭建</h3>
+                    <p class="proj-desc">任学院融媒体中心部长（2022–2023），统筹官网 / 官微 / 公众号三大传播矩阵。</p>
+                    <div class="proj-strategy">
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">策略</span><span class="proj-strategy-val">搭「选题 + 审核」机制，把零散校园资讯做成有主题的传播：围绕乡村振兴等议题做话题运营。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">方案</span><span class="proj-strategy-val">带队产出稿件 230+ 篇、拍摄素材 2000+ 张，审核文稿超 14.4 万字，多篇被省级媒体「大江网」转载。</span></div>
+                        <div class="proj-strategy-row"><span class="proj-strategy-key">结果</span><span class="proj-strategy-val">推文累计阅读 97.6 万、微博 47.71 万；主导策划的乡村振兴主题微博话题阅读破 11 万。</span></div>
+                    </div>
+                    <div class="proj-metrics">
+                        <div class="metric"><span class="metric-val">230+</span><span class="metric-label">发布稿件</span></div>
+                        <div class="metric"><span class="metric-val">97.6万</span><span class="metric-label">累计阅读</span></div>
+                        <div class="metric"><span class="metric-val">14.4万字</span><span class="metric-label">审核文稿</span></div>
+                    </div>
+                    <div class="proj-tags"><span>传播策略</span><span>矩阵运营</span><span>话题策划</span><span>内容采编</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <h3 class="subsection-title">账号诊断实战 · 无忧在孵达人</h3>
+    <p class="section-note">这是我在 MCN 期间完成的真实账号诊断（2026-09-08 公开数据）：先用方法论拆解内容引擎，再推断粉丝画像、评估商务适配，最后给出 90 天可执行动作——判断可复核、建议能落地。</p>
+
+    <div class="diag-grid">
+        <div class="diag-card">
+            <div class="diag-head">
+                <div>
+                    <div class="diag-title">不许说胖</div>
+                    <div class="diag-sub">流量起号 · 手势舞 / 甜妹软萌 · 浙江</div>
+                </div>
+            </div>
+            <div class="diag-metrics">
+                <div class="diag-metric"><b>222.5万</b><span>粉丝</span></div>
+                <div class="diag-metric"><b>8867.6万</b><span>累计获赞</span></div>
+                <div class="diag-metric"><b>508</b><span>作品</span></div>
+            </div>
+            <div class="diag-label">内容引擎拆解</div>
+            <p class="diag-text">动作 / 表情型引擎：手势舞回归单条 35.7 万赞、4.6 万收藏、7.1 万分享，同时提供「动作节奏 + 可模仿 + 可转发」三重钩子；对镜颜值片多数只有 1–10 万赞，证明流量来自动作事件而非静态好看。</p>
+            <div class="diag-label">粉丝池（方向性推断）</div>
+            <ul class="diag-list">
+                <li>男性为主，约 6–7 成；18–30 岁核心，含「看她长大」的养成系老粉（中高置信）</li>
+                <li>点赞收藏慷慨，但粉团率低、无带货口碑——典型「曝光型资产」而非转化型私域</li>
+                <li>实际商单集中在游戏 / 文旅 / 潮玩，广告主认知已被固化为「男粉流量型甜妹」</li>
+            </ul>
+            <div class="diag-label">核心判断</div>
+            <p class="diag-text">问题不是「粉丝差」，而是粉丝资产与高端美妆目标<b>错配</b>；最优先风险是幼态视觉 + 男性凝视评论区构成的品牌红线组合，先迁移画像、再谈品类升级。</p>
+            <div class="diag-conclusion">90 天动作：4:4:2 双池模型——40% 去擦边化流量款保推荐池，40% 品牌款（人设 + 变美过程），20% 商单维持收入；同步做评论区置顶与控评管理。KPI 不是涨粉，是女性粉丝占比与美妆 TGI。</div>
+        </div>
+
+        <div class="diag-card">
+            <div class="diag-head">
+                <div>
+                    <div class="diag-title">冰糖</div>
+                    <div class="diag-sub">造型起号 · 古早千金 / 斩女拽姐 · 浙江 · 24 岁</div>
+                </div>
+            </div>
+            <div class="diag-metrics">
+                <div class="diag-metric"><b>112.6万</b><span>粉丝</span></div>
+                <div class="diag-metric"><b>1243万</b><span>累计获赞</span></div>
+                <div class="diag-metric"><b>46</b><span>作品</span></div>
+            </div>
+            <div class="diag-label">内容引擎拆解</div>
+            <p class="diag-text">造型事件型引擎：古早千金 32.3 万赞、斩女拽姐 22.6 万赞（3.5 万收藏 / 4.3 万分享），本质是「妆造反差 + 角色感 + 女性审美参考」三合一；但陶艺少女等脱离造型的内容跌到几千赞——粉丝粉的是妆造，不是人。</p>
+            <div class="diag-label">粉丝池（方向性推断）</div>
+            <ul class="diag-list">
+                <li>男女混合，女性占比显著更高：「斩男又斩女」「性取向五颜六色」类女性审美互动已出现</li>
+                <li>核心观众推断为 18–28 岁审美型女性 + 18–30 岁男性（中置信）</li>
+                <li>已有直播与私域导流习惯（「要链接加姐妹群」），私域电商是现实现金流</li>
+            </ul>
+            <div class="diag-label">核心判断</div>
+            <p class="diag-text">两人中更接近美妆时尚池，但缺三样东西：稳定人格人设、干净评论区、种草证据链；最新评论已出现「你全是 AI」信任质疑，若不处理会反噬「高级感」资产。</p>
+            <div class="diag-conclusion">90 天动作：把千金 / 斩女做成固定系列化 IP（统一妆造体系 + 场景 + 叙事线）；品牌形象号与好物私域号矩阵分层；用花絮 / 原相机 / 过程化内容把「真实感」做成资产。先够中高端国货美妆 / 香水，再谈大牌。</div>
+        </div>
+    </div>
+
+    <p class="diag-method">方法说明：抖音公开主页与视频页数据抓取（2026-09-08）→ 用「母题 × 期待 × 兑现」拆解内容引擎 → 评论区舆情采样推断粉丝结构 → 商务适配矩阵评估 → 输出 90 天动作。粉丝画像为方向性推断，正式投放请以星图 / 蝉妈妈 / 新抖数据为准。</p>
+    <a class="diag-download" href="documents/account-diagnosis-buxushuopang-bingtang.docx" target="_blank" rel="noopener">📄 下载完整诊断报告（DOCX）</a>
+
+    <h3 class="subsection-title">履历</h3>
+    <div class="work-block">
+        <div class="work-timeline">
+
+            <div class="wt-item reveal">
+                <div class="wt-period">2025 – 2026</div>
+                <div class="wt-dot"></div>
+                <div class="wt-body">
+                    <div class="wt-company">杭州呀呀叮咚有限公司（MCN）</div>
+                    <h3 class="wt-title">内容策划</h3>
+                    <p class="wt-desc">服务「夏小夏」（822万粉）、「峰峰疯了」（103万粉）、「玖儿」（118万粉）等头部音乐 IP：负责账号内容策划、拍摄方案制定与视觉生产，参与大型直播与活动的内容编排；主导「雷雷不累」从 0 到 1 起号（25 万粉、单条最高 181 万赞），操盘「小白很白」冷启动。</p>
+                    <div class="wt-tags"><span>内容策划</span><span>账号孵化</span><span>头部 IP 服务</span></div>
+                </div>
+            </div>
+
+            <div class="wt-item reveal">
+                <div class="wt-period">2023 – 2025</div>
+                <div class="wt-dot"></div>
+                <div class="wt-body">
+                    <div class="wt-company">江西广播电视台都市频道</div>
+                    <h3 class="wt-title">线下项目活动策划组长</h3>
+                    <p class="wt-desc">统筹大型活动全流程：策划执笔、流程仪式设计、主持稿撰写、嘉宾统筹与现场执行；代表项目「永修集体婚礼暨 UP 青年交友活动」由 10+ 部门联合主办；统筹管理嘉宾 300+ 人次，覆盖 12 场省内活动影像与传播支持。</p>
+                    <div class="wt-tags"><span>活动全案</span><span>策划执笔</span><span>政务传播</span></div>
+                </div>
+            </div>
+
+            <div class="wt-item reveal">
+                <div class="wt-period">2024</div>
+                <div class="wt-dot"></div>
+                <div class="wt-body">
+                    <div class="wt-company">江西念嘉科技有限公司</div>
+                    <h3 class="wt-title">直播运营</h3>
+                    <p class="wt-desc">统筹电商直播内容节奏与技术执行：制定直播日程与方案，搭建直播间内容架构，把控现场节奏，保障高质量稳定输出。</p>
+                    <div class="wt-tags"><span>直播运营</span><span>方案制定</span><span>节奏把控</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <button class="lightbox-nav lightbox-prev" onclick="navigateLightbox(-1)">‹</button>
+    <img id="lightbox-img" src="" alt="获奖证书大图">
+    <button class="lightbox-nav lightbox-next" onclick="navigateLightbox(1)">›</button>
+    <div class="lightbox-counter" id="lightbox-counter"></div>
+</div>
+
+<!-- WORKS -->
+<section id="works">
+    <div class="section-label">Works</div>
+    <h2 class="section-title">影像作品 · 编导佐证</h2>
+    <div class="divider"></div>
+    <p class="section-note">这些获奖作品是「编导能力」的佐证：从选题策划、脚本与分镜，到拍摄与后期全流程参与——策划案我自己能拍出来，也懂叙事如何落地。</p>
+    <div class="works-featured">
+        <div class="work-doc-card">
+                <picture><source srcset="images-webp/work-doc.webp" type="image/webp"><img class="work-doc-img" src="images/work-doc.jpg" alt="我为青山微纪录片" loading="lazy"></picture>
+            <div class="work-doc-overlay">
+                <div class="work-doc-meta">
+                    <span class="work-doc-type">🎬 Documentary</span>
+                    <div class="work-doc-badges">
+                        <span class="work-doc-badge">🏆 第八届全国微电影大赛二等奖</span>
+                        <span class="work-doc-badge">🏅 沂蒙山杯全国三等奖</span>
+                    </div>
+                </div>
+                <div class="work-doc-bottom">
+                    <h3 class="work-doc-title">《我为青山》</h3>
+                    <p class="work-doc-desc">赴井冈山完成选题策划与人物专访，三天掌机拍摄，统筹灯光架构与无人机航拍，熟练操作PR、剪映、Davinci完成后期制作。</p>
+                    <a class="xinpianchang-btn" href="https://www.xinpianchang.com/a13391665?from=webShare&channel=copyLink" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+                        点击前往新片场观看
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="work-doc-card work-doc-card-secondary">
+                <picture><source srcset="images-webp/work-jindu.webp" type="image/webp"><img class="work-doc-img" src="images/work-jindu.jpg" alt="少年的瘾" loading="lazy"></picture>
+            <div class="work-doc-overlay">
+                <div class="work-doc-meta">
+                    <span class="work-doc-type">🎬 Anti-Drug Film</span>
+                    <div class="work-doc-badges">
+                        <span class="work-doc-badge">🏆 2024江北宁波禁毒征集比赛一等奖</span>
+                    </div>
+                </div>
+                <div class="work-doc-bottom">
+                    <h3 class="work-doc-title">《少年的“瘾”》</h3>
+                    <p class="work-doc-desc">以毒品对青少年侵蚀为题材，从导演视角到后期调色全程参与，作品贴合现实议题，引发社会对青少年禁毒的广泛关注。</p>
+                    <a class="xinpianchang-btn" href="https://www.xinpianchang.com/a13391683?from=webShare&channel=copyLink" target="_blank">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/></svg>
+                        点击前往新片场观看
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- DOUYIN WORKS -->
+<section id="douyin">
+    <div class="section-label">Douyin Works</div>
+    <h2 class="section-title">抖音作品节选</h2>
+    <div class="divider"></div>
+    <p class="douyin-lead">MCN 任职期间参与策划 / 拍摄 / 制作的代表内容 · 点击直达观看（团队协作作品，个人分工可详询）</p>
+    <div class="douyin-grid">
+        <a class="douyin-item" href="https://v.douyin.com/UCd7XZCkrGk/" target="_blank">
+            <div class="douyin-thumb">🎤</div>
+            <div class="douyin-info">
+                <div class="douyin-title">长得基础唱歌就不基础</div>
+                <div class="douyin-sub">我的女人 · 翻唱 · 音乐 · 黑皮</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/aighlasq7KM/" target="_blank">
+            <div class="douyin-thumb">🎬</div>
+            <div class="douyin-info">
+                <div class="douyin-title">三条 A 通杀牌变装</div>
+                <div class="douyin-sub">扑克变装系列 · 爆款内容</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/wgCQ7a7DrKE/" target="_blank">
+            <div class="douyin-thumb">🎤</div>
+            <div class="douyin-info">
+                <div class="douyin-title">遇事不决，可问春风</div>
+                <div class="douyin-sub">知我 · 剑来 · 陈平安</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/_qhGNlUuGbM/" target="_blank">
+            <div class="douyin-thumb">🎭</div>
+            <div class="douyin-info">
+                <div class="douyin-title">敢惹我兄弟？敢惹我女人？</div>
+                <div class="douyin-sub">剧情短剧 · 演员合作</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/4HWmU2PIxmo/" target="_blank">
+            <div class="douyin-thumb">📖</div>
+            <div class="douyin-info">
+                <div class="douyin-title">跟2025年爆款主人公的合作打开方式</div>
+                <div class="douyin-sub">水手说系列 · 合作内容</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/QdvhU55EX6Q/" target="_blank">
+            <div class="douyin-thumb">🌸</div>
+            <div class="douyin-info">
+                <div class="douyin-title">对不起了各位，我先笑为敬了</div>
+                <div class="douyin-sub">天竺少女 · 搞笑剧情</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/y-WGyq5D9jU/" target="_blank">
+            <div class="douyin-thumb">🎵</div>
+            <div class="douyin-info">
+                <div class="douyin-title">你听过这首歌吗？</div>
+                <div class="douyin-sub">红楼梦 · 翻唱系列</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+        <a class="douyin-item" href="https://v.douyin.com/YOXAFmGtGvM/" target="_blank">
+            <div class="douyin-thumb">🎶</div>
+            <div class="douyin-info">
+                <div class="douyin-title">是谁发出的动静？</div>
+                <div class="douyin-sub">游山恋 · 合唱 · 好兄弟</div>
+            </div>
+            <div class="douyin-arrow">↗</div>
+        </a>
+    </div>
+    <div class="douyin-footer">
+        <div class="douyin-portal-link">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.59a8.16 8.16 0 0 0 4.77 1.52V6.81a4.86 4.86 0 0 1-1-.12z"/></svg>
+            更多作品，持续更新中 →
+        </div>
+    </div>
+</section>
+
+<!-- DOCUMENT LIBRARY -->
+<section id="documents">
+    <div class="section-label">Documents</div>
+    <h2 class="section-title">策划与脚本文档库</h2>
+    <div class="divider"></div>
+    <p class="section-note">策划案、主持稿、脚本与分镜原件——招聘方能直接点开验证的「策划作品集」。部分商业合作项目受保密约定约束，文档按需提供。</p>
+    <div class="doc-grid">
+
+        <div class="doc-card">
+            <div class="doc-icon">📊</div>
+            <div class="doc-type">Account Diagnosis</div>
+            <h3 class="doc-title">抖音账号诊断报告 · 不许说胖 × 冰糖</h3>
+            <p class="doc-desc">222.5 万粉与 112.6 万粉账号的完整诊断：内容引擎拆解、粉丝画像推断、商务适配矩阵与 90 天动作（2026-09-08 数据）。</p>
+            <div class="doc-links"><a class="doc-btn" href="documents/account-diagnosis-buxushuopang-bingtang.docx" target="_blank" rel="noopener">↓ 下载 DOCX</a></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">📋</div>
+            <div class="doc-type">Event Script · 2025</div>
+            <h3 class="doc-title">永修集体婚礼暨 UP 青年交友活动 · 主持稿</h3>
+            <p class="doc-desc">政务 + 文旅活动完整主持稿：领导致辞衔接、中式古礼六仪串词、10 题《文明新风问答赛》与新人宣誓词（策划执笔原件）。</p>
+            <div class="doc-links"><a class="doc-btn" href="documents/yongxiu-wedding-hosting-script.docx" target="_blank" rel="noopener">↓ 下载 DOCX</a></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">🧭</div>
+            <div class="doc-type">Coverage Plan · 2023</div>
+            <h3 class="doc-title">南航科院 23 迎新报道策划案</h3>
+            <p class="doc-desc">融媒体全案策划：4 大报道主题与叙事角度、分组采访提纲、四部门分工表与经费预算——从主题到落地的完整策划文档。</p>
+            <div class="doc-links"><a class="doc-btn" href="documents/nanhang-yingxin-report-plan.docx" target="_blank" rel="noopener">↓ 下载 DOCX</a></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">🎬</div>
+            <div class="doc-type">Script · Promo Film</div>
+            <h3 class="doc-title">《长空》学院宣传片 · 文案脚本</h3>
+            <p class="doc-desc">南昌航空大学科技学院宣传片文学脚本：以「长空之下」为母题，串联历史沿革、师资、学科与育人成果的结构化叙事文案。</p>
+            <div class="doc-links"><a class="doc-btn" href="documents/changkong-academy-film-script.docx" target="_blank" rel="noopener">↓ 下载 DOCX</a></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">📷</div>
+            <div class="doc-type">Doc Research · 我为青山</div>
+            <h3 class="doc-title">《我为青山》· 拍摄手记与剧情脚本</h3>
+            <p class="doc-desc">纪录片创作素材：护林员人物调研、影像细节设计（装备 / 骑行 / 巡山 / 红豆杉测量）与七段式剧情分场脚本（两篇）。</p>
+            <div class="doc-links">
+                <a class="doc-btn" href="documents/wo-wei-qingshan-blue-script.docx" target="_blank" rel="noopener">↓ 拍摄手记</a>
+                <a class="doc-btn" href="documents/wo-wei-qingshan-tree-script.docx" target="_blank" rel="noopener">↓ 剧情脚本</a>
+            </div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">🎞️</div>
+            <div class="doc-type">Storyboard · Micro Film</div>
+            <h3 class="doc-title">《小鱼》微电影 · 全片分镜脚本</h3>
+            <p class="doc-desc">获奖微电影完整分镜（22 场）：景别、画面内容、台词与备注逐镜标注，可直接进入拍摄执行。</p>
+            <div class="doc-links"><a class="doc-btn" href="documents/xiaoyu-film-storyboard.xlsx" target="_blank" rel="noopener">↓ 下载 XLSX</a></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">⚖️</div>
+            <div class="doc-type">Storyboard · Cooperation</div>
+            <h3 class="doc-title">《执行 · 执心》故事片分镜（法院题材）</h3>
+            <p class="doc-desc">宜春法院执行题材故事片：多场景分镜 + 台词 + 机位注释的完整分镜脚本（61 行导演工作版）。</p>
+            <div class="doc-links"><span class="doc-btn off">合作项目 · 完整文档按需提供</span></div>
+        </div>
+
+        <div class="doc-card">
+            <div class="doc-icon">💄</div>
+            <div class="doc-type">Commercial Script · 保密</div>
+            <h3 class="doc-title">TF 彩香礼盒 · 小红书商业拍摄脚本</h3>
+            <p class="doc-desc">17 秒竖屏报备脚本：9 秒产品露出节奏、景别 - 画面 - 花字逐镜设计，含参考视频与妆造 / 服装 / 场景清单。</p>
+            <div class="doc-links"><span class="doc-btn off">商业保密 · 面试时可展示</span></div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- AWARDS -->
+<section id="awards">
+    <div class="section-label">Awards</div>
+    <h2 class="section-title">获奖荣誉</h2>
+    <div class="divider"></div>
+    <!-- ========== 微电影类 ========== -->
+    <h3 class="subsection-title">微电影类</h3>
+    <div class="awards-grid">
+        <div class="award-item reveal">
+            <div class="award-rank">🥇🥈 一等奖 & 二等奖</div>
+            <div class="award-name">江西省高校大学生领航计划微电影</div>
+            <div class="award-org">江西省高校大学生领航计划</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥇 金奖</div>
+            <div class="award-name">第四届人人网络微电影短视频大赛</div>
+            <div class="award-org">人人网络微电影短视频大赛</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥈🥉 全国二、三等奖</div>
+            <div class="award-name">第七届 & 第八届全国高校大学生“我心中的思政课” · 长视频组</div>
+            <div class="award-org">全国高校大学生“我心中的思政课”</div>
+        </div>
+    </div>
+
+    <!-- ========== 广告艺术类 ========== -->
+    <h3 class="subsection-title">广告艺术类</h3>
+    <div class="awards-grid">
+        <div class="award-item reveal">
+            <div class="award-rank">🥉 全国三等奖、优秀奖及入围奖</div>
+            <div class="award-name">2024 中国大学生广告艺术节学院奖沂蒙山杯</div>
+            <div class="award-org">中国大学生广告艺术节学院奖</div>
+        </div>
+    </div>
+
+    <!-- ========== 视频创作与公开课类 ========== -->
+    <h3 class="subsection-title">视频创作与公开课类</h3>
+    <div class="awards-grid">
+        <div class="award-item reveal">
+            <div class="award-rank">🏅 优秀奖</div>
+            <div class="award-name">2024 北京师范大学“我眼中的国家安全”视频征集大赛</div>
+            <div class="award-org">北京师范大学</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥉 全国三等奖</div>
+            <div class="award-name">2024 全国高校大学生讲公开课本科组</div>
+            <div class="award-org">全国高校大学生讲公开课</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥈🥉 二等奖 & 三等奖</div>
+            <div class="award-name">2024 江西省“大学生讲公开课”</div>
+            <div class="award-org">江西省“大学生讲公开课”</div>
+        </div>
+    </div>
+
+    <!-- ========== 其他荣誉 ========== -->
+    <h3 class="subsection-title">其他荣誉</h3>
+    <div class="awards-grid">
+        <div class="award-item reveal">
+            <div class="award-rank">🥇 一等奖</div>
+            <div class="award-name">2024 年度江北宁波市禁毒征集比赛</div>
+            <div class="award-org">宁波市江北 · 禁毒征集比赛</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥉 三等奖</div>
+            <div class="award-name">2024 年江西省“红色走读”</div>
+            <div class="award-org">江西省“红色走读”</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥉 三等奖</div>
+            <div class="award-name">第三届江西省大学生职业规划大赛校赛视频赛道</div>
+            <div class="award-org">江西省大学生职业规划大赛</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🏅 优胜奖</div>
+            <div class="award-name">第一届“筑梦青春，强国有我”视频创作大赛</div>
+            <div class="award-org">“筑梦青春，强国有我”视频创作大赛</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🥈🏅 二等奖 & 优秀奖</div>
+            <div class="award-name">学院“回望峥嵘读初心，诵读红色家书”视频比赛</div>
+            <div class="award-org">学院视频比赛</div>
+        </div>
+        <div class="award-item reveal">
+            <div class="award-rank">🏅 纪念奖</div>
+            <div class="award-name">2024 全国防范青少年涉麻精药品等成瘾性物质滥用</div>
+            <div class="award-org">全国防范青少年涉麻精药品等成瘾性物质滥用</div>
+        </div>
+    </div>
+
+    <div class="cert-section-label">📜 证书展示</div>
+    <div class="cert-gallery">
+        <div class="cert-item reveal" data-src="images/certificates/certificate-01.jpg" onclick="openLightbox(0)">
+            <picture><source srcset="images-webp/certificates/certificate-01.webp" type="image/webp"><img src="images/certificates/certificate-01.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-02.jpg" onclick="openLightbox(1)">
+            <picture><source srcset="images-webp/certificates/certificate-02.webp" type="image/webp"><img src="images/certificates/certificate-02.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-03.jpg" onclick="openLightbox(2)">
+            <picture><source srcset="images-webp/certificates/certificate-03.webp" type="image/webp"><img src="images/certificates/certificate-03.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-04.jpg" onclick="openLightbox(3)">
+            <picture><source srcset="images-webp/certificates/certificate-04.webp" type="image/webp"><img src="images/certificates/certificate-04.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-05.jpg" onclick="openLightbox(4)">
+            <picture><source srcset="images-webp/certificates/certificate-05.webp" type="image/webp"><img src="images/certificates/certificate-05.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-06.jpg" onclick="openLightbox(5)">
+            <picture><source srcset="images-webp/certificates/certificate-06.webp" type="image/webp"><img src="images/certificates/certificate-06.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-07.jpg" onclick="openLightbox(6)">
+            <picture><source srcset="images-webp/certificates/certificate-07.webp" type="image/webp"><img src="images/certificates/certificate-07.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-08.jpg" onclick="openLightbox(7)">
+            <picture><source srcset="images-webp/certificates/certificate-08.webp" type="image/webp"><img src="images/certificates/certificate-08.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-09.png" onclick="openLightbox(8)">
+            <picture><source srcset="images-webp/certificates/certificate-09.webp" type="image/webp"><img src="images/certificates/certificate-09.png" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-10.jpg" onclick="openLightbox(9)">
+            <picture><source srcset="images-webp/certificates/certificate-10.webp" type="image/webp"><img src="images/certificates/certificate-10.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-11.jpg" onclick="openLightbox(10)">
+            <picture><source srcset="images-webp/certificates/certificate-11.webp" type="image/webp"><img src="images/certificates/certificate-11.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-12.jpg" onclick="openLightbox(11)">
+            <picture><source srcset="images-webp/certificates/certificate-12.webp" type="image/webp"><img src="images/certificates/certificate-12.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+        <div class="cert-item reveal" data-src="images/certificates/certificate-13.jpg" onclick="openLightbox(12)">
+            <picture><source srcset="images-webp/certificates/certificate-13.webp" type="image/webp"><img src="images/certificates/certificate-13.jpg" alt="获奖证书" loading="lazy"></picture>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- AI CREDITS -->
+<section id="credits" class="credits">
+    <div class="credits-line">
+        <span class="credits-icon credits-icon-codex"><svg height="1em" style="flex:none;line-height:1" viewBox="0 0 24 24" width="1em" xmlns="http://www.w3.org/2000/svg"><title>Codex</title><path d="M19.503 0H4.496A4.496 4.496 0 000 4.496v15.007A4.496 4.496 0 004.496 24h15.007A4.496 4.496 0 0024 19.503V4.496A4.496 4.496 0 0019.503 0z" fill="#fff"></path><path d="M9.064 3.344a4.578 4.578 0 012.285-.312c1 .115 1.891.54 2.673 1.275.01.01.024.017.037.021a.09.09 0 00.043 0 4.55 4.55 0 013.046.275l.047.022.116.057a4.581 4.581 0 012.188 2.399c.209.51.313 1.041.315 1.595a4.24 4.24 0 01-.134 1.223.123.123 0 00.03.115c.594.607.988 1.33 1.183 2.17.289 1.425-.007 2.71-.887 3.854l-.136.166a4.548 4.548 0 01-2.201 1.388.123.123 0 00-.081.076c-.191.551-.383 1.023-.74 1.494-.9 1.187-2.222 1.846-3.711 1.838-1.187-.006-2.239-.44-3.157-1.302a.107.107 0 00-.105-.024c-.388.125-.78.143-1.204.138a4.441 4.441 0 01-1.945-.466 4.544 4.544 0 01-1.61-1.335c-.152-.202-.303-.392-.414-.617a5.81 5.81 0 01-.37-.961 4.582 4.582 0 01-.014-2.298.124.124 0 00.006-.056.085.085 0 00-.027-.048 4.467 4.467 0 01-1.034-1.651 3.896 3.896 0 01-.251-1.192 5.189 5.189 0 01.141-1.6c.337-1.112.982-1.985 1.933-2.618.212-.141.413-.251.601-.33.215-.089.43-.164.646-.227a.098.098 0 00.065-.066 4.51 4.51 0 01.829-1.615 4.535 4.535 0 011.837-1.388zm3.482 10.565a.637.637 0 000 1.272h3.636a.637.637 0 100-1.272h-3.636zM8.462 9.23a.637.637 0 00-1.106.631l1.272 2.224-1.266 2.136a.636.636 0 101.095.649l1.454-2.455a.636.636 0 00.005-.64L8.462 9.23z" fill="url(#lobe-icons-codex-_R_0_)"></path><defs><linearGradient gradientUnits="userSpaceOnUse" id="lobe-icons-codex-_R_0_" x1="12" x2="12" y1="3" y2="21"><stop stop-color="#B1A7FF"></stop><stop offset=".5" stop-color="#7A9DFF"></stop><stop offset="1" stop-color="#3941FF"></stop></linearGradient></defs></svg></span>
+        <span class="credits-text">本网站为本人使用 <em>Codex</em> 与 <em>OpenClaw</em> 搭建完成</span>
+        <span class="credits-icon credits-icon-lobster"><svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lobster-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff4d4d"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+  </defs>
+  <!-- SMIL, not CSS: Chromium/Safari only run declarative SMIL inside <img>-loaded
+       SVGs, and every app surface loads this file via <img src>. Mirrors the
+       openclaw.ai hero mascot keyframes (float 4s, wiggle 2s, blink 3s, snap 4s). -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" additive="sum"
+      values="0 0; 0 -5; 0 0" keyTimes="0; 0.5; 1" dur="4s" repeatCount="indefinite"
+      calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    <!-- Body -->
+    <path d="M60 10 C30 10 15 35 15 55 C15 75 30 95 45 100 L45 110 L55 110 L55 100 C55 100 60 102 65 100 L65 110 L75 110 L75 100 C90 95 105 75 105 55 C105 35 90 10 60 10Z" fill="url(#lobster-gradient)"/>
+    <!-- Left Claw (hinges on its body-facing edge) -->
+    <path d="M20 45 C5 40 0 50 5 60 C10 70 20 65 25 55 C28 48 25 45 20 45Z" fill="url(#lobster-gradient)">
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 26 53; 0 26 53; -8 26 53; 0 26 53; 0 26 53" keyTimes="0; 0.85; 0.9; 0.95; 1"
+        dur="4s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </path>
+    <!-- Right Claw (snaps 0.2s after the left) -->
+    <path d="M100 45 C115 40 120 50 115 60 C110 70 100 65 95 55 C92 48 95 45 100 45Z" fill="url(#lobster-gradient)">
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 94 53; 0 94 53; -8 94 53; 0 94 53; 0 94 53" keyTimes="0; 0.85; 0.9; 0.95; 1"
+        dur="4s" begin="0.2s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </path>
+    <!-- Antenna -->
+    <path d="M45 15 Q35 5 30 8" stroke="#ff4d4d" stroke-width="3" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 37.5 11; -3 37.5 11; 3 37.5 11; 0 37.5 11" keyTimes="0; 0.25; 0.75; 1"
+        dur="2s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </path>
+    <path d="M75 15 Q85 5 90 8" stroke="#ff4d4d" stroke-width="3" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="rotate"
+        values="0 82.5 11; -3 82.5 11; 3 82.5 11; 0 82.5 11" keyTimes="0; 0.25; 0.75; 1"
+        dur="2s" repeatCount="indefinite"
+        calcMode="spline" keySplines="0.42 0 0.58 1; 0.42 0 0.58 1; 0.42 0 0.58 1"/>
+    </path>
+    <!-- Eyes -->
+    <circle cx="45" cy="35" r="6" fill="#050810"/>
+    <circle cx="75" cy="35" r="6" fill="#050810"/>
+    <circle cx="46" cy="34" r="2.5" fill="#00e5cc">
+      <animate attributeName="opacity" values="1; 1; 0.3; 1" keyTimes="0; 0.9; 0.95; 1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="76" cy="34" r="2.5" fill="#00e5cc">
+      <animate attributeName="opacity" values="1; 1; 0.3; 1" keyTimes="0; 0.9; 0.95; 1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg></span>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="section-label">Contact</div>
+    <h2 class="contact-title">期待与您沟通</h2>
+    <p class="contact-sub">2026 届新闻学本科 · 求职：品牌策划 / 内容编导 / 新媒体策划 · base：杭州 · 上海（可接受异地岗位）</p>
+    <div class="contact-methods">
+        <div class="contact-method">
+            <div class="contact-method-icon">📧</div>
+            <div class="contact-method-label">邮箱</div>
+            <div class="contact-method-value"><a href="mailto:zy698367@163.com">zy698367@163.com</a></div>
+        </div>
+        <div class="contact-method">
+            <div class="contact-method-icon">📱</div>
+            <div class="contact-method-label">电话</div>
+            <div class="contact-method-value"><a href="tel:13647056173">13647056173</a></div>
+        </div>
+        <div class="contact-method">
+            <div class="contact-method-icon">🔗</div>
+            <div class="contact-method-label">作品主页</div>
+            <div class="contact-method-value"><a href="https://www.xinpianchang.com/u14525248" target="_blank">xinpianchang.com/u14525248</a></div>
+        </div>
+    </div>
+    <a class="contact-cta" href="mailto:zy698367@163.com">
+        <span>发送邮件</span>
+        <span>→</span>
+    </a>
+    <div class="resume-download">
+        <a href="zhaozexuan-resume-2026.pdf" target="_blank" class="resume-btn">
+            <span>📄</span> 点击下载简历原件
+        </a>
+        <a href="https://www.xinpianchang.com/u14525248" target="_blank" class="resume-btn">
+            <span>🎬</span> 点击进入新片场主页
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-left">
+        <strong>赵泽玄 ZhaoZexuan</strong> · 新闻学 · 2026 届
+    </div>
+    <div class="footer-right">本网站由 AI 辅助设计开发 · 2026</div>
+</footer>
+
+<script>
+    // Tab Switcher
+    // Custom Cursor
+    const cd = document.getElementById('cd');
+    const cr = document.getElementById('cr');
+    let mx = 0, my = 0, rx = 0, ry = 0;
+    let cursorScale = 1;
+    document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+    function animateCursor() {
+        rx += (mx - rx) * 0.12;
+        ry += (my - ry) * 0.12;
+        cd.style.transform = `translate(${mx - 3}px, ${my - 3}px)`;
+        cr.style.transform = `translate(${rx - 16}px, ${ry - 16}px) scale(${cursorScale})`;
+        requestAnimationFrame(animateCursor);
+    }
+    animateCursor();
+    document.querySelectorAll('a, button, .work-item, .skill-item, .award-item, .proj-card').forEach(el => {
+        el.addEventListener('mouseenter', () => { cursorScale = 1.5; });
+        el.addEventListener('mouseleave', () => { cursorScale = 1; });
+    });
+
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    function setMenu(open) {
+        navMenu.classList.toggle('open', open);
+        nav.classList.toggle('open', open);
+        navToggle.setAttribute('aria-expanded', String(open));
+        navToggle.setAttribute('aria-label', open ? '关闭菜单' : '打开菜单');
+    }
+    if (navToggle && navMenu) {
+        navToggle.addEventListener('click', () => setMenu(!navMenu.classList.contains('open')));
+        navMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+        document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+    }
+
+    // Keyboard access for lightbox triggers
+    document.querySelectorAll('.wt-thumb, .cert-item').forEach(el => {
+        if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '0');
+        if (!el.hasAttribute('role')) el.setAttribute('role', 'button');
+        el.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                el.click();
+            }
+        });
+    });
+
+    // Nav scroll
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 60);
+        // Active nav link
+        const sections = document.querySelectorAll('section[id]');
+        let current = '';
+        sections.forEach(s => {
+            if (window.scrollY >= s.offsetTop - 120) current = s.id;
+        });
+        document.querySelectorAll('nav a').forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+        });
+    });
+
+    // Reveal on scroll
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+            if (entry.isIntersecting) {
+                const siblings = Array.from(entry.target.parentNode.children).filter(c => c.classList.contains('reveal'));
+                setTimeout(() => entry.target.classList.add('visible'), Math.min(siblings.indexOf(entry.target), 8) * 80);
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Lightbox
+    const certImages = Array.from(document.querySelectorAll('.cert-item')).map(el => el.dataset.src);
+    let lbImages = certImages.slice();
+    let currentIdx = 0;
+
+    function showLightbox() {
+        const lb = document.getElementById('lightbox');
+        const img = document.getElementById('lightbox-img');
+        img.src = lbImages[currentIdx];
+        document.getElementById('lightbox-counter').textContent = (currentIdx + 1) + ' / ' + lbImages.length;
+        lb.style.display = 'flex';
+        requestAnimationFrame(() => lb.classList.add('active'));
+        document.body.style.overflow = 'hidden';
+    }
+
+    window.openLightbox = function(idx) {
+        lbImages = certImages;
+        currentIdx = idx;
+        showLightbox();
+    };
+
+    window.openWorkLightbox = function(images, idx) {
+        lbImages = images;
+        currentIdx = idx;
+        showLightbox();
+    };
+
+    window.closeLightbox = function(e) {
+        if (e && e.target !== e.currentTarget) return;
+        const lb = document.getElementById('lightbox');
+        lb.classList.remove('active');
+        setTimeout(() => { lb.style.display = 'none'; document.body.style.overflow = ''; }, 300);
+    };
+
+    window.navigateLightbox = function(dir) {
+        currentIdx = (currentIdx + dir + lbImages.length) % lbImages.length;
+        document.getElementById('lightbox-img').src = lbImages[currentIdx];
+        document.getElementById('lightbox-counter').textContent = (currentIdx + 1) + ' / ' + lbImages.length;
+    };
+
+    document.addEventListener('keydown', function(e) {
+        const lb = document.getElementById('lightbox');
+        if (lb.style.display !== 'flex') return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') navigateLightbox(-1);
+        if (e.key === 'ArrowRight') navigateLightbox(1);
+    });
+
+
+    // Micro-interactions: 3D tilt, count-up
+    (function () {
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const noHover = window.matchMedia('(hover: none)').matches;
+
+        // 3D tilt on cards
+        if (!reduceMotion && !noHover) {
+            document.querySelectorAll('.proj-card, .cap-card, .work-doc-card').forEach((card) => {
+                card.addEventListener('mouseenter', () => { card.style.transition = 'transform .1s linear'; });
+                card.addEventListener('mousemove', (e) => {
+                    const r = card.getBoundingClientRect();
+                    const px = (e.clientX - r.left) / r.width - 0.5;
+                    const py = (e.clientY - r.top) / r.height - 0.5;
+                    card.style.transform =
+                        `perspective(750px) rotateX(${(-py * 10).toFixed(2)}deg) rotateY(${(px * 10).toFixed(2)}deg) translateY(-3px)`;
+                });
+                card.addEventListener('mouseleave', () => {
+                    card.style.transition = 'transform .5s cubic-bezier(.22,1,.36,1), box-shadow .4s, border-color .4s';
+                    card.style.transform = '';
+                    setTimeout(() => { card.style.transition = ''; }, 500);
+                });
+            });
+        }
+
+        // Count-up for stats and project metrics
+        const countUp = (el) => {
+            if (!el._countOriginal) el._countOriginal = el.innerHTML;
+            const html = el._countOriginal;
+            const mh = html.match(/^(\+?-?[\d.]+)/);
+            if (!mh) return;
+            const target = parseFloat(mh[1]);
+            if (!isFinite(target)) return;
+            const token = (el._countToken || 0) + 1;
+            el._countToken = token;
+            if (el._countTimer) { clearTimeout(el._countTimer); el._countTimer = null; }
+            const prefix = mh[1].charAt(0) === '+' ? '+' : '';
+            const number = prefix ? mh[1].slice(1) : mh[1];
+            const decimals = (number.split('.')[1] || '').length;
+            const suffixHtml = html.slice(mh[0].length);
+            const dur = 2400;
+            let start = null;
+            const step = (ts) => {
+                if (el._countToken !== token) return;
+                if (!start) start = ts;
+                const k = Math.min((ts - start) / dur, 1);
+                const eased = 1 - Math.pow(1 - k, 3);
+                const val = target * eased;
+                const text = prefix + (decimals ? val.toFixed(decimals) : Math.round(val)) + suffixHtml;
+                el.innerHTML = text;
+                if (k < 1) {
+                    requestAnimationFrame(step);
+                } else {
+                    el.innerHTML = html;
+                }
+            };
+            requestAnimationFrame(step);
+            el._countTimer = setTimeout(() => {
+                if (el._countToken === token) el.innerHTML = html;
+                el._countTimer = null;
+            }, dur + 150);
+        };
+        const countObs = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    if (!entry.target._countEntered) {
+                        entry.target._countEntered = true;
+                        countUp(entry.target);
+                    }
+                } else {
+                    entry.target._countEntered = false;
+                }
+            });
+        }, { threshold: 0.4 });
+        document.querySelectorAll('.stat-num, .metric-val').forEach((el) => countObs.observe(el));
+    })();
+
+    // WebP detection for CSS background images
+    (function() {
+        var canvas = document.createElement('canvas');
+        if (canvas.toDataURL('image/webp').indexOf('data:image/webp') === 0) {
+            document.documentElement.classList.add('webp');
+        }
+    })();
+</script>
+</body>
+</html>
